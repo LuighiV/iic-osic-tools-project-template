@@ -1,0 +1,505 @@
+timestamp 1790260567
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sw sw_0 1 0 2088 0 1 519
+use DAC2 DAC2_1 1 0 404 0 1 -3284
+use DAC2 DAC2_0 1 0 404 0 1 342
+port "vrefl" 6 12 -3658 214 -3582 li
+port "avss" 1 2563 -2943 2563 -2943 m1
+port "avdd" 0 2599 3020 2599 3020 m1
+port "b0" 2 353 -158 353 -158 m2
+port "b1" 3 2459 -182 2459 -182 m2
+port "vout" 7 4535 -328 4538 -328 m1
+port "b2" 4 3067 -27 3067 -27 m1
+port "vrefh" 5 12 3530 213 3590 li
+node "vrefl" 0 0 12 -3658 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "avss" 0 0 2563 -2943 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "avdd" 0 0 2599 3020 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "b0" 3 1045.88 353 -158 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 313158 5338 0 0 0 0 0 0 0 0
+node "b1" 4 1676 2459 -182 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 529480 8924 0 0 0 0 0 0 0 0
+node "m1_2893_n1058#" 3 1654.21 2893 -1058 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 478632 6806 112014 1818 0 0 0 0 0 0 0 0
+node "vout" 0 120.096 4535 -328 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33998 738 0 0 0 0 0 0 0 0 0 0
+node "b2" 0 132.725 3067 -27 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32870 726 0 0 0 0 0 0 0 0 0 0
+node "m1_2917_788#" 5 1319.14 2917 788 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 284725 5928 69384 1612 0 0 0 0 0 0 0 0
+node "m1_21_n624#" 2 1557.92 21 -624 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 556400 5964 0 0 0 0 0 0 0 0 0 0
+node "li_4115_n2594#" 164 1535.09 4115 -2594 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 487110 5386 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1893_n330#" 127 1219.95 1893 -330 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 378690 4274 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_11_n63#" 32 131.388 11 -63 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16646 570 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_4180_1834#" 133 1297.1 4180 1834 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 414600 4546 0 0 0 0 0 0 0 0 0 0 0 0
+node "vrefh" 43 117.379 12 3530 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12060 522 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "b1" "m1_2893_n1058#" 44.3618
+cap "m1_2893_n1058#" "vout" 7.53079
+cap "b0" "m1_21_n624#" 535.835
+cap "li_11_n63#" "b0" 2.20887
+cap "li_1893_n330#" "m1_2893_n1058#" 36.0961
+cap "li_4115_n2594#" "m1_2893_n1058#" 896.08
+cap "li_1893_n330#" "b1" 140.777
+cap "b1" "li_4115_n2594#" 0.0107182
+cap "b2" "m1_2893_n1058#" 10.7401
+cap "li_1893_n330#" "vout" 0.411239
+cap "li_4115_n2594#" "vout" 59.996
+cap "b2" "b1" 2.6627
+cap "m1_2893_n1058#" "li_4180_1834#" 0.280709
+cap "m1_2893_n1058#" "m1_2917_788#" 4.85954
+cap "b1" "li_4180_1834#" 0.11521
+cap "vout" "li_4180_1834#" 4.71984
+cap "b1" "m1_2917_788#" 38.5455
+cap "vout" "m1_2917_788#" 4.00572
+cap "li_1893_n330#" "b0" 2.65491
+cap "li_1893_n330#" "b2" 52.1889
+cap "li_11_n63#" "m1_21_n624#" 110.174
+cap "li_4115_n2594#" "li_4180_1834#" 4.25
+cap "li_1893_n330#" "m1_2917_788#" 6.79158
+cap "li_4115_n2594#" "m1_2917_788#" 0.202324
+cap "b2" "m1_2917_788#" 12.3632
+cap "li_4180_1834#" "m1_2917_788#" 582.707
+cap "DAC2_1/sw_2/XM8/G" "avss" 1.3407
+cap "avss" "DAC2_1/vout" -0.778427
+cap "sw_0/avss" "DAC2_1/sw_2/avdd" -0.740968
+cap "sw_0/avss" "DAC2_1/vout" 3.02342
+cap "DAC2_1/sw_1/vin2" "DAC2_1/sw_1/vin1" -0.686669
+cap "DAC2_1/b1" "DAC2_1/sw_1/vin2" 2.59808
+cap "DAC2_1/avdd" "DAC2_1/sw_1/vin2" -1.10111
+cap "DAC2_1/avdd" "DAC2_1/sw_1/vin1" -0.0481827
+cap "DAC2_1/b1" "DAC2_1/sw_1/vin1" 0.383879
+cap "DAC2_1/sw_2/vin1" "DAC2_1/sw_1/vin2" -0.0112378
+cap "DAC2_1/avdd" "DAC2_1/sw_1/XM8/G" -0.0127867
+cap "DAC2_1/b1" "DAC2_1/sw_1/XM8/G" 0.0699627
+cap "DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80#" "DAC2_1/b0" 0.967292
+cap "avss" "DAC2_1/b0" 0.181107
+cap "DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80#" "DAC2_1/sw_1/vin2" -0.018305
+cap "DAC2_1/sw_1/vin1" "sw_0/vin2" 0.0783826
+cap "DAC2_1/b0" "DAC2_1/sw_1/XM6/G" 0.6136
+cap "DAC2_1/sw_1/vin2" "DAC2_1/b0" 6.11307
+cap "DAC2_1/sw_2/XM2/B" "DAC2_1/sw_1/vin2" -0.0246468
+cap "avss" "DAC2_1/sw_1/vin1" 1.26486
+cap "DAC2_1/b0" "DAC2_1/sw_1/vin1" 75.451
+cap "DAC2_0/sw_0/XM3/G" "DAC2_1/sw_1/vin1" 0.0623718
+cap "DAC2_1/avdd" "DAC2_1/b0" 37.5703
+cap "DAC2_1/sw_2/vin1" "DAC2_1/avdd" -3.44924
+cap "DAC2_1/avdd" "avss" 1.76745
+cap "DAC2_1/sw_1/XM8/G" "DAC2_1/b1" 4.33742
+cap "DAC2_1/b1" "DAC2_1/sw_1/XM6/G" 1.22402
+cap "DAC2_1/sw_2/vin1" "DAC2_1/b1" 223.94
+cap "DAC2_1/avdd" "sw_0/vin2" 9.60423
+cap "DAC2_1/b1" "DAC2_1/b0" 0.0993877
+cap "DAC2_1/sw_1/vin2" "DAC2_1/b1" 2.8251
+cap "DAC2_1/b1" "avss" 173.046
+cap "DAC2_1/b1" "DAC2_1/sw_2/XM8/G" 0.0251899
+cap "DAC2_1/b1" "DAC2_1/sw_2/XM6/G" 1.11429
+cap "DAC2_1/sw_2/vin1" "avss" -3.29791
+cap "DAC2_1/sw_1/XM8/G" "sw_0/vin2" 0.328694
+cap "DAC2_1/sw_1/vin1" "DAC2_1/avdd" -1.61533
+cap "DAC2_1/sw_2/vin2" "DAC2_1/avdd" -0.798345
+cap "DAC2_1/sw_2/vin1" "DAC2_1/sw_2/XM6/G" -0.0413717
+cap "DAC2_1/sw_1/vin1" "DAC2_1/b1" 13.581
+cap "DAC2_1/sw_2/vin2" "DAC2_1/b1" 19.341
+cap "DAC2_1/sw_2/vin2" "DAC2_1/sw_2/vin1" -4.19238
+cap "DAC2_1/sw_2/vin2" "avss" 5.68434e-14
+cap "DAC2_1/b1" "DAC2_1/avdd" 314.602
+cap "DAC2_1/sw_2/XM6/G" "sw_0/vin1" 0.00465888
+cap "DAC2_1/sw_2/XM6/G" "DAC2_1/sw_2/vin1" -5.68434e-14
+cap "sw_0/vin2" "DAC2_1/sw_2/vin2" 19.3907
+cap "DAC2_1/b1" "sw_0/b_in" 0.0285238
+cap "sw_0/b_in" "sw_0/vin2" -2.45593
+cap "sw_0/XM6/G" "DAC2_1/sw_2/XM6/G" 0.225546
+cap "DAC2_1/sw_2/XM8/G" "avss" 3.93461
+cap "DAC2_1/b1" "sw_0/avdd" 0.043113
+cap "avss" "DAC2_1/avdd" 20.6115
+cap "DAC2_1/sw_2/XM8/G" "sw_0/vin1" 0.00275316
+cap "sw_0/vout" "DAC2_1/sw_2/vin2" 1.6276
+cap "DAC2_1/sw_2/vin1" "avss" 10.4398
+cap "DAC2_1/sw_2/vin1" "DAC2_1/avdd" -0.0077759
+cap "sw_0/vin2" "DAC2_1/sw_2/XM6/G" 0.909709
+cap "DAC2_1/sw_2/XM8/G" "sw_0/XM6/G" 0.214061
+cap "sw_0/b_in" "DAC2_1/sw_2/vin2" 0.102872
+cap "DAC2_1/sw_1/XM8/G" "DAC2_1/sw_2/vin2" -0.104328
+cap "sw_0/XM6/G" "DAC2_1/sw_2/vin1" 0.310404
+cap "sw_0/XM8/G" "DAC2_1/sw_2/vin2" 0.304609
+cap "DAC2_1/sw_1/XM7/S" "DAC2_1/sw_2/vin2" -0.00700809
+cap "sw_0/vin2" "DAC2_1/sw_2/XM8/G" 6.29224
+cap "DAC2_1/b1" "avss" 0.382472
+cap "DAC2_1/b1" "DAC2_1/avdd" -1.13687e-13
+cap "sw_0/vin2" "avss" 66.3428
+cap "sw_0/vin2" "DAC2_1/avdd" 218.138
+cap "DAC2_1/b1" "DAC2_1/sw_2/vin1" 1.8987
+cap "sw_0/b_in" "DAC2_1/sw_2/XM6/G" 0.215218
+cap "sw_0/vin2" "sw_0/vin1" -0.151429
+cap "sw_0/vin2" "DAC2_1/sw_2/vin1" 20.3268
+cap "sw_0/vout" "DAC2_1/sw_2/XM8/G" 0.0114854
+cap "sw_0/XM8/G" "DAC2_1/sw_2/XM6/G" 0.0114854
+cap "DAC2_1/sw_2/XM6/G" "sw_0/avdd" 0.0417197
+cap "DAC2_1/sw_2/vin2" "avss" 7.65124
+cap "DAC2_1/b1" "sw_0/vin2" 0.581207
+cap "DAC2_1/sw_2/vin2" "DAC2_1/sw_2/vin1" -0.195911
+cap "sw_0/b_in" "DAC2_1/sw_2/vin1" 0.829502
+cap "DAC2_1/sw_2/XM8/G" "sw_0/avdd" 0.0208599
+cap "sw_0/XM8/G" "DAC2_1/sw_2/XM8/G" 0.00320081
+cap "sw_0/XM6/G" "DAC2_1/sw_2/vin2" 0.690912
+cap "DAC2_1/sw_1/XM8/G" "DAC2_1/sw_2/vin1" -0.00541858
+cap "DAC2_1/sw_2/vin1" "sw_0/avdd" 0.100224
+cap "DAC2_1/sw_2/XM6/G" "avss" 0.355127
+cap "DAC2_1/sw_1/XM6/G" "DAC2_1/sw_2/vin1" -0.00149498
+cap "DAC2_1/b1" "DAC2_1/sw_2/vin2" 3.7234
+cap "DAC2_1/sw_2/vin1" "sw_0/vin2" 4.20724
+cap "DAC2_1/sw_2/vin1" "sw_0/avss" 0.229148
+cap "sw_0/vin2" "sw_0/avss" 4.42564
+cap "sw_0/vin2" "DAC2_1/sw_2/XM6/G" 0.0424023
+cap "DAC2_1/sw_2/XM6/G" "sw_0/avss" 0.049476
+cap "DAC2_1/sw_2/avdd" "sw_0/vin2" 99.354
+cap "DAC2_1/sw_2/avdd" "sw_0/avss" 157.21
+cap "sw_0/vout" "sw_0/vin2" -3.67308
+cap "sw_0/vin2" "DAC2_1/b1" 0.00952835
+cap "DAC2_1/b1" "sw_0/avss" 0.0116883
+cap "sw_0/avdd" "sw_0/vin2" -0.27189
+cap "DAC2_1/sw_2/vin2" "sw_0/vin2" 2.69786
+cap "sw_0/vin2" "DAC2_1/sw_2/XM8/G" 5.50068
+cap "DAC2_1/sw_2/vin2" "sw_0/avss" 0.0259156
+cap "DAC2_1/sw_2/XM8/G" "sw_0/avss" 0.372352
+cap "DAC2_1/avdd" "DAC2_1/vrefh" 122.397
+cap "DAC2_1/sw_2/XM1/B" "DAC2_1/sw_1/vin2" 0.563178
+cap "DAC2_0/sw_0/vin1" "DAC2_1/avdd" 0.0283083
+cap "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740#" "DAC2_1/vrefh" -64.6075
+cap "DAC2_1/vrefh" "DAC2_1/sw_1/vin1" 6.90916
+cap "DAC2_1/sw_2/XM1/B" "DAC2_1/b0" 100.212
+cap "DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990#" "DAC2_1/sw_1/vin2" -0.0520547
+cap "DAC2_1/sw_2/XM1/B" "DAC2_1/avdd" 40.3063
+cap "DAC2_0/sw_0/XM8/G" "DAC2_1/sw_1/vin2" 0.018449
+cap "DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990#" "DAC2_1/b0" 15.6628
+cap "DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990#" "DAC2_1/avdd" 149.533
+cap "DAC2_1/sw_2/XM1/B" "DAC2_1/sw_1/vin1" 2.52433
+cap "DAC2_1/sw_1/vin2" "DAC2_1/b0" 2.73256
+cap "DAC2_1/sw_1/vin2" "DAC2_1/avdd" -0.227121
+cap "DAC2_1/sw_1/XM8/G" "DAC2_1/b0" 0.0247256
+cap "DAC2_1/avdd" "DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80#" 0.419404
+cap "DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990#" "DAC2_1/sw_1/vin1" -0.137438
+cap "DAC2_1/sw_1/vin2" "DAC2_1/sw_1/vin1" -0.0164831
+cap "DAC2_1/sw_2/XM1/B" "DAC2_1/sw_1/XM6/G" 0.0899347
+cap "DAC2_1/avdd" "DAC2_1/b0" 40.2762
+cap "DAC2_0/sw_0/XM6/G" "DAC2_1/sw_1/vin2" 0.0816157
+cap "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740#" "DAC2_1/b0" 7.24767
+cap "DAC2_1/avdd" "DAC2_1/sw_1/vin1" -0.715718
+cap "DAC2_1/avdd" "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740#" 279.992
+cap "DAC2_1/sw_1/vin1" "DAC2_1/b0" 62.6776
+cap "DAC2_0/sw_0/XM6/G" "DAC2_1/b0" 0.00276222
+cap "DAC2_0/sw_0/XM8/G" "DAC2_1/sw_1/XM6/G" 0.00276222
+cap "DAC2_1/avdd" "DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830#" 0.0367763
+cap "DAC2_0/sw_0/XM6/G" "DAC2_1/sw_1/vin1" 0.214659
+cap "DAC2_1/sw_1/XM6/G" "DAC2_1/b0" 0.499498
+cap "DAC2_1/sw_2/XM1/B" "DAC2_1/vrefh" 0.458331
+cap "DAC2_1/sw_1/XM6/G" "DAC2_0/sw_0/XM6/G" 0.188828
+cap "DAC2_1/sw_1/vin1" "DAC2_1/b1" 0.133459
+cap "DAC2_1/sw_1/vin2" "DAC2_1/vrefh" 1.57534
+cap "DAC2_1/vrefh" "DAC2_1/b0" 223.101
+cap "DAC2_1/sw_1/vin2" "DAC2_0/sw_2/vin2" 3.91298
+cap "DAC2_1/avdd" "sw_0/vin2" 8.01778
+cap "DAC2_1/sw_1/vin2" "DAC2_1/sw_1/XM8/G" 1.42109e-14
+cap "DAC2_1/sw_1/XM6/G" "sw_0/avss" 0.0899347
+cap "DAC2_1/sw_1/XM6/G" "DAC2_0/sw_2/vin2" 0.00276222
+cap "sw_0/avss" "DAC2_1/vrefh" 0.385746
+cap "DAC2_1/b0" "sw_0/avss" -0.306778
+cap "sw_0/avss" "DAC2_1/b1" 200.857
+cap "DAC2_1/avdd" "sw_0/XM8/G" 0.0623143
+cap "sw_0/avss" "sw_0/vin1" 0.890055
+cap "DAC2_0/sw_0/vin1" "DAC2_1/sw_1/XM8/G" 0.00276222
+cap "sw_0/avss" "sw_0/b_in" 0.581181
+cap "sw_0/avss" "sw_0/avdd" 15.9426
+cap "DAC2_1/b1" "DAC2_1/sw_1/XM8/G" 0.805726
+cap "DAC2_0/sw_0/XM8/G" "DAC2_1/sw_1/XM8/G" 0.189063
+cap "sw_0/avss" "sw_0/vin2" 0.0186077
+cap "sw_0/avss" "DAC2_1/avdd" 225.972
+cap "DAC2_1/b1" "sw_0/XM6/G" 0.738838
+cap "sw_0/avss" "DAC2_1/sw_2/vin1" 0.411422
+cap "DAC2_1/sw_1/vin2" "DAC2_1/vrefh" 1.12391
+cap "DAC2_1/sw_1/vin2" "DAC2_0/sw_0/vin1" 0.018449
+cap "sw_0/vin2" "DAC2_1/sw_1/XM8/G" 0.0383949
+cap "DAC2_1/sw_1/vin2" "DAC2_0/sw_0/XM8/G" 0.146159
+cap "DAC2_1/b1" "DAC2_1/sw_1/vin2" 10.1437
+cap "sw_0/avss" "sw_0/XM8/G" 0.00874649
+cap "DAC2_1/sw_1/XM6/G" "DAC2_1/b1" 0.120252
+cap "DAC2_1/avdd" "sw_0/XM6/G" 0.0386515
+cap "DAC2_1/sw_1/vin2" "DAC2_0/sw_0/XM6/G" 0.237537
+cap "DAC2_1/b0" "DAC2_1/b1" 0.0229153
+cap "DAC2_1/avdd" "DAC2_1/sw_1/vin2" -1.54053
+cap "sw_0/avss" "DAC2_0/sw_2/vin2" 0.328627
+cap "DAC2_1/sw_1/XM6/G" "DAC2_0/sw_0/XM6/G" 0.188828
+cap "DAC2_1/b1" "sw_0/avdd" 6.65406
+cap "DAC2_1/b1" "sw_0/vin1" 1.58029
+cap "DAC2_1/b1" "DAC2_1/sw_1/vin1" 0.0274025
+cap "DAC2_1/b1" "sw_0/b_in" 1.52437
+cap "sw_0/avss" "DAC2_1/sw_1/XM8/G" 0.687249
+cap "DAC2_1/b1" "sw_0/vin2" 5.86006
+cap "DAC2_1/b1" "DAC2_1/sw_2/vin1" 0.00664433
+cap "DAC2_1/b1" "DAC2_1/avdd" 380.663
+cap "sw_0/avss" "sw_0/XM6/G" 0.0676803
+cap "DAC2_1/avdd" "DAC2_1/sw_1/vin1" -0.00255088
+cap "DAC2_1/avdd" "sw_0/b_in" 0.282859
+cap "sw_0/avss" "DAC2_1/sw_1/vin2" 8.84256
+cap "sw_0/vin1" "DAC2_1/sw_2/vin1" 0.0301671
+cap "DAC2_0/sw_2/XM7/G" "sw_0/vin2" 0.560517
+cap "DAC2_1/sw_2/XM8/G" "sw_0/vout" 0.0189092
+cap "sw_0/XM8/G" "sw_0/vin2" 0.326653
+cap "sw_0/vin1" "DAC2_0/sw_2/XM7/G" 0.0559759
+cap "sw_0/avss" "DAC2_1/avdd" 28.9937
+cap "DAC2_1/avdd" "sw_0/vin2" 28.1084
+cap "sw_0/vin1" "sw_0/XM8/G" 0.0337738
+cap "sw_0/b_in" "DAC2_0/sw_2/XM6/G" 0.243234
+cap "sw_0/XM6/G" "DAC2_1/sw_2/vin2" 0.00167504
+cap "sw_0/b_in" "DAC2_0/sw_2/vin1" 0.00497817
+cap "sw_0/avss" "sw_0/XM6/G" 0.41852
+cap "sw_0/vin1" "DAC2_1/avdd" 2.9503
+cap "DAC2_0/sw_2/vin2" "sw_0/vin2" 0.224891
+cap "sw_0/XM6/G" "DAC2_1/sw_2/XM6/G" 0.224076
+cap "sw_0/XM6/G" "sw_0/vin2" 2.89314
+cap "DAC2_1/sw_2/vin1" "sw_0/XM6/G" 0.0187405
+cap "sw_0/avdd" "sw_0/XM6/G" 0.0567647
+cap "DAC2_1/avdd" "sw_0/XM8/G" 0.183404
+cap "DAC2_1/sw_2/vin2" "sw_0/vout" 1.61179
+cap "DAC2_1/sw_2/XM8/G" "sw_0/vin2" 0.006883
+cap "sw_0/vin1" "DAC2_0/sw_2/vin2" 5.52746
+cap "sw_0/vin1" "sw_0/XM6/G" 1.8501
+cap "sw_0/avss" "sw_0/vout" -0.000213323
+cap "sw_0/XM6/G" "DAC2_0/sw_2/XM7/G" 0.245318
+cap "DAC2_0/sw_2/XM6/G" "sw_0/vin2" 0.337078
+cap "sw_0/vin2" "sw_0/vout" 1.74062
+cap "DAC2_0/sw_2/vin1" "sw_0/vin2" 0.0333269
+cap "sw_0/b_in" "sw_0/avss" -33.9897
+cap "sw_0/b_in" "DAC2_1/sw_2/XM6/G" 0.226624
+cap "sw_0/b_in" "sw_0/vin2" 3.92442
+cap "sw_0/b_in" "DAC2_1/sw_2/vin1" 0.00622876
+cap "sw_0/b_in" "DAC2_1/b1" 1.20778
+cap "sw_0/b_in" "sw_0/avdd" 0.80744
+cap "DAC2_1/sw_2/XM8/G" "sw_0/XM8/G" 0.0108622
+cap "sw_0/vin1" "DAC2_0/sw_2/XM6/G" 1.46272
+cap "DAC2_1/avdd" "sw_0/XM6/G" 0.849072
+cap "sw_0/vin1" "DAC2_0/sw_2/vin1" 0.178248
+cap "sw_0/vin1" "sw_0/b_in" 2.4037
+cap "DAC2_0/sw_2/vin2" "sw_0/XM6/G" 0.012801
+cap "DAC2_1/avdd" "sw_0/vout" 2.89505
+cap "DAC2_1/sw_2/vin2" "sw_0/vin2" 6.7919
+cap "sw_0/avss" "sw_0/vin2" 388.664
+cap "sw_0/avss" "DAC2_1/b1" 1.67318
+cap "sw_0/avss" "sw_0/avdd" 15.388
+cap "DAC2_1/sw_2/XM6/G" "sw_0/vin2" 0.243549
+cap "sw_0/avdd" "sw_0/vin2" -0.532233
+cap "DAC2_1/sw_2/XM8/G" "sw_0/XM6/G" 0.230945
+cap "sw_0/b_in" "DAC2_1/avdd" 1.57413
+cap "DAC2_1/sw_2/vin1" "sw_0/vin2" 1.85949
+cap "DAC2_1/b1" "sw_0/vin2" 6.35591
+cap "DAC2_1/b1" "sw_0/avdd" 2.5491
+cap "sw_0/vin1" "DAC2_1/sw_2/vin2" 0.119688
+cap "sw_0/vin1" "sw_0/avss" 12.0339
+cap "sw_0/XM6/G" "DAC2_0/sw_2/XM6/G" 0.240453
+cap "sw_0/vin1" "sw_0/vin2" 13.1108
+cap "sw_0/vin1" "DAC2_1/sw_2/XM6/G" 0.191334
+cap "sw_0/XM8/G" "DAC2_1/sw_2/vin2" 0.274537
+cap "sw_0/vin1" "DAC2_1/b1" 2.29291
+cap "sw_0/vin1" "sw_0/avdd" 114.412
+cap "sw_0/XM6/G" "DAC2_0/sw_2/vin1" 0.00677362
+cap "sw_0/b_in" "sw_0/XM6/G" 1.42109e-14
+cap "sw_0/vin2" "sw_0/vin1" 1.95344
+cap "sw_0/avdd" "sw_0/XM8/G" 0.0597407
+cap "sw_0/vin2" "sw_0/avss" 29.0444
+cap "DAC2_1/sw_2/avdd" "sw_0/vout" 2.26862
+cap "DAC2_1/sw_2/avdd" "sw_0/XM8/G" 0.388034
+cap "sw_0/vout" "sw_0/vin1" -1.8813
+cap "sw_0/vout" "sw_0/vin2" -1.6064
+cap "sw_0/vout" "sw_0/avss" -53.5746
+cap "sw_0/avdd" "sw_0/vin1" -0.304399
+cap "sw_0/XM8/G" "sw_0/vin1" 0.30827
+cap "sw_0/vin2" "sw_0/avdd" 0.881764
+cap "sw_0/vin2" "sw_0/XM8/G" 0.410175
+cap "sw_0/avss" "sw_0/avdd" -4.25
+cap "sw_0/avss" "sw_0/XM8/G" 0.482554
+cap "sw_0/avss" "sw_0/b_in" 0.000298725
+cap "DAC2_1/sw_2/avdd" "sw_0/avss" 1.84199
+cap "sw_0/vout" "sw_0/avdd" -3.40619
+cap "DAC2_0/sw_0/XM6/G" "DAC2_1/sw_1/XM5/G" 0.191499
+cap "avdd" "DAC2_1/vrefh" 49.7443
+cap "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740#" "DAC2_1/vrefh" -25.4107
+cap "DAC2_1/vrefh" "DAC2_0/avss" -0.444595
+cap "DAC2_0/avss" "DAC2_0/sw_0/XM8/G" -0.0130633
+cap "avdd" "DAC2_0/sw_0/XM6/G" 0.232368
+cap "DAC2_1/vrefh" "DAC2_1/sw_1/vin1" 4.85615
+cap "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830#" "DAC2_1/sw_1/XM2/G" -38.7006
+cap "DAC2_0/sw_0/vin1" "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830#" -54.6843
+cap "DAC2_0/sw_0/vin1" "DAC2_1/sw_1/XM2/G" 60.809
+cap "DAC2_1/sw_1/XM2/G" "DAC2_0/sw_2/vin2" 0.0803347
+cap "avdd" "DAC2_0/sw_1/vin1" 0.0465448
+cap "DAC2_1/sw_1/vin1" "DAC2_0/sw_0/XM6/G" 0.00109115
+cap "DAC2_0/b1" "DAC2_0/sw_0/XM8/G" 0.0695733
+cap "DAC2_1/vrefh" "DAC2_0/b1" 2.58513
+cap "DAC2_0/sw_0/vin1" "DAC2_0/sw_2/vin2" -0.163695
+cap "avdd" "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830#" 285.818
+cap "DAC2_1/sw_1/XM2/G" "DAC2_0/avss" 30.7419
+cap "avdd" "DAC2_1/sw_1/XM2/G" -2.86844
+cap "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740#" "DAC2_1/sw_1/XM2/G" 4.11221
+cap "DAC2_0/sw_0/vin1" "DAC2_0/avss" -0.107076
+cap "avdd" "DAC2_0/sw_0/vin1" 220.469
+cap "DAC2_1/sw_1/XM2/G" "DAC2_0/sw_1/vin2" 0.624897
+cap "DAC2_1/vrefh" "DAC2_1/sw_1/XM2/S" 0.0149185
+cap "DAC2_1/vrefh" "DAC2_1/sw_1/XM8/S" 1.57534
+cap "avdd" "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80#" 1.83686
+cap "avdd" "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740#" 149.204
+cap "avdd" "DAC2_0/avss" 0.559234
+cap "avdd" "DAC2_0/sw_1/vin2" 3.29906
+cap "DAC2_1/vrefh" "DAC2_1/sw_1/XM5/G" 0.0901895
+cap "DAC2_1/sw_1/XM2/G" "DAC2_0/sw_0/XM8/G" 0.148938
+cap "DAC2_1/vrefh" "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830#" -0.281795
+cap "DAC2_1/vrefh" "DAC2_1/sw_1/XM2/G" 160.866
+cap "avdd" "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990#" 0.0918231
+cap "DAC2_0/sw_0/vin1" "DAC2_0/b1" 0.512274
+cap "DAC2_0/sw_0/vin1" "DAC2_1/vrefh" -1.68038
+cap "DAC2_0/sw_0/XM6/G" "DAC2_1/sw_1/XM2/G" 1.63949
+cap "DAC2_1/sw_1/XM2/G" "DAC2_0/sw_2/vin2" 0.0622407
+cap "DAC2_1/vrefh" "avdd" 0.992553
+cap "DAC2_0/sw_2/vin2" "DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740#" -0.0216053
+cap "DAC2_0/sw_2/vin2" "DAC2_1/sw_1/XM8/G" 0.0294049
+cap "DAC2_0/sw_2/vin2" "DAC2_0/b1" 204.984
+cap "DAC2_0/b1" "avdd" 106.016
+cap "DAC2_0/sw_2/vin1" "DAC2_0/b1" 19.3644
+cap "DAC2_0/sw_2/vin2" "DAC2_1/sw_1/XM5/G" 0.00864115
+cap "sw_0/avss" "DAC2_0/sw_0/XM8/G" 0.22759
+cap "DAC2_0/sw_2/XM6/G" "DAC2_1/vrefh" -0.388246
+cap "DAC2_1/sw_1/XM8/D" "DAC2_0/sw_0/XM8/G" 0.00272741
+cap "DAC2_0/b1" "DAC2_0/sw_2/XM6/G" 1.65985
+cap "DAC2_1/sw_1/XM8/S" "DAC2_1/vrefh" 1.10785
+cap "DAC2_0/sw_0/vin1" "sw_0/avss" -4.60133
+cap "DAC2_0/sw_2/XM8/G" "DAC2_1/vrefh" -0.0124587
+cap "DAC2_0/sw_2/vin1" "DAC2_0/sw_2/vin2" -2.14348
+cap "DAC2_0/sw_2/vin2" "avdd" 1.59007
+cap "DAC2_0/b1" "DAC2_0/sw_0/XM6/G" 1.3284
+cap "DAC2_1/sw_1/XM2/G" "DAC2_0/sw_0/XM8/G" 0.00396724
+cap "DAC2_0/b1" "DAC2_0/sw_2/XM8/G" 0.150776
+cap "DAC2_0/vout" "DAC2_0/b1" 0.0809699
+cap "DAC2_1/sw_1/XM8/G" "DAC2_0/sw_0/XM8/G" 0.191832
+cap "DAC2_0/b1" "DAC2_0/sw_0/XM8/G" 4.43197
+cap "sw_0/avss" "DAC2_1/vrefh" -2.00957
+cap "sw_0/vin1" "DAC2_0/sw_0/XM8/G" 0.385194
+cap "DAC2_1/sw_1/vin1" "DAC2_0/sw_0/XM6/G" 0.00317819
+cap "DAC2_1/sw_1/XM5/G" "DAC2_0/sw_0/XM6/G" 0.191015
+cap "DAC2_1/sw_1/XM2/G" "sw_0/avss" 0.000583306
+cap "sw_0/avss" "DAC2_0/b1" 532.851
+cap "DAC2_1/sw_1/vin1" "DAC2_0/sw_0/XM8/G" 0.000450779
+cap "DAC2_0/sw_0/vin1" "DAC2_0/b1" 12.4798
+cap "sw_0/avss" "sw_0/vin1" 7.05846
+cap "DAC2_0/sw_2/vin2" "DAC2_1/sw_1/XM8/S" 3.89204
+cap "avdd" "DAC2_0/sw_0/XM6/G" 0.19742
+cap "DAC2_0/b1" "DAC2_1/vrefh" 11.6476
+cap "avdd" "DAC2_0/sw_0/XM8/G" 0.450929
+cap "DAC2_1/sw_1/XM2/G" "DAC2_0/b1" 0.119875
+cap "DAC2_1/sw_1/XM5/G" "DAC2_1/vrefh" 0.0102495
+cap "sw_0/avss" "DAC2_0/sw_2/vin2" 10.7157
+cap "sw_0/avss" "avdd" 8.26705
+cap "DAC2_0/sw_2/vin2" "DAC2_1/vrefh" -3.91838
+cap "DAC2_1/sw_1/XM8/S" "DAC2_0/sw_0/XM6/G" 0.000410787
+cap "DAC2_0/sw_2/XM8/G" "sw_0/vin1" 5.90213
+cap "sw_0/b_in" "sw_0/vin1" -2.69677
+cap "avdd" "sw_0/vin1" 288.119
+cap "DAC2_0/sw_2/XM6/G" "sw_0/vin1" 0.628289
+cap "sw_0/XM6/G" "DAC2_0/sw_2/vin1" 0.0533888
+cap "sw_0/XM6/G" "DAC2_0/sw_2/vin2" 0.271542
+cap "sw_0/avss" "DAC2_0/sw_2/XM8/G" -1.04491
+cap "avdd" "sw_0/avss" 53.6708
+cap "DAC2_0/sw_2/XM6/G" "sw_0/avss" 0.00416404
+cap "sw_0/vin1" "sw_0/vin2" 6.21345
+cap "DAC2_0/sw_2/vin1" "sw_0/b_in" 0.280907
+cap "DAC2_0/b1" "DAC2_0/sw_2/XM8/G" 0.00608514
+cap "sw_0/b_in" "DAC2_0/sw_2/vin2" 0.282546
+cap "DAC2_0/sw_2/vin1" "avdd" 14.9014
+cap "DAC2_0/b1" "sw_0/b_in" 0.0301533
+cap "DAC2_0/sw_0/XM8/S" "DAC2_0/sw_2/vin2" -0.248894
+cap "DAC2_0/sw_0/XM8/B" "sw_0/vin1" -0.00942195
+cap "avdd" "DAC2_0/sw_2/vin2" 9.44743
+cap "DAC2_0/sw_2/XM6/G" "DAC2_0/sw_2/vin2" -5.68434e-14
+cap "DAC2_0/b1" "DAC2_0/sw_2/XM6/G" 0.119267
+cap "DAC2_0/b1" "avdd" -4.50253
+cap "sw_0/XM6/G" "DAC2_0/sw_2/XM8/G" 0.239474
+cap "sw_0/avss" "sw_0/vin1" 206.542
+cap "sw_0/vin2" "DAC2_0/sw_2/vin2" 0.209302
+cap "sw_0/XM6/G" "DAC2_0/sw_2/XM6/G" 0.247594
+cap "sw_0/XM8/G" "DAC2_0/sw_2/XM8/G" 0.003423
+cap "DAC2_0/sw_2/XM8/G" "sw_0/vout" 0.0129811
+cap "DAC2_0/sw_0/XM8/B" "DAC2_0/sw_2/vin2" -2.1964
+cap "DAC2_0/sw_2/vin1" "sw_0/vin1" 2.66054
+cap "DAC2_0/b1" "sw_0/vin1" 0.632105
+cap "sw_0/vin1" "DAC2_0/sw_2/vin2" 13.1787
+cap "sw_0/XM8/G" "DAC2_0/sw_2/XM6/G" 0.0129811
+cap "avdd" "DAC2_0/sw_2/XM8/G" 5.50862
+cap "DAC2_0/sw_0/XM8/G" "DAC2_0/sw_2/vin2" -0.0244608
+cap "DAC2_0/sw_2/XM6/G" "sw_0/b_in" 0.228644
+cap "sw_0/avss" "DAC2_0/sw_2/vin2" -1.80028
+cap "DAC2_0/sw_2/vin1" "sw_0/avss" -0.252693
+cap "DAC2_0/b1" "sw_0/avss" 0.082783
+cap "DAC2_0/sw_2/XM6/G" "avdd" 0.971857
+cap "sw_0/XM6/G" "sw_0/vin1" 0.0819734
+cap "DAC2_0/sw_2/XM8/G" "sw_0/vin2" 0.293082
+cap "DAC2_0/sw_2/vin1" "DAC2_0/sw_2/vin2" -0.0995223
+cap "DAC2_0/b1" "DAC2_0/sw_2/vin1" 0.262837
+cap "DAC2_0/sw_2/XM6/G" "sw_0/vin2" 0.00123259
+cap "DAC2_0/b1" "DAC2_0/sw_2/vin2" 4.28114
+cap "sw_0/XM8/G" "sw_0/vin1" 0.00595478
+cap "sw_0/vout" "sw_0/vin1" -2.00286
+cap "sw_0/avdd" "DAC2_0/sw_2/vin2" 0.0260521
+cap "sw_0/avdd" "DAC2_0/sw_2/XM6/G" 0.0497567
+cap "sw_0/avdd" "DAC2_0/b1" -0.021073
+cap "sw_0/avdd" "sw_0/vin1" 32.1642
+cap "sw_0/vin1" "DAC2_0/sw_2/XM6/G" 0.00787816
+cap "sw_0/vin1" "DAC2_0/b1" 0.00181454
+cap "sw_0/avdd" "DAC2_0/sw_2/XM8/G" 0.375291
+cap "sw_0/avss" "sw_0/avdd" 160.102
+cap "sw_0/vin1" "sw_0/XM8/G" 0.000309059
+cap "sw_0/vin1" "DAC2_0/sw_2/XM8/G" 0.519285
+cap "DAC2_0/sw_2/vin1" "sw_0/avdd" 0.232801
+cap "sw_0/avss" "sw_0/vin1" 86.5738
+cap "sw_0/vin1" "sw_0/vin2" 0.0581395
+cap "DAC2_0/vrefh" "avdd" 0.0372896
+cap "avdd" "DAC2_0/sw_2/vin1" -0.472901
+cap "DAC2_0/b1" "DAC2_0/sw_2/vin1" 6.49449
+cap "DAC2_0/sw_2/vin1" "DAC2_0/avss" -2.61152
+cap "avdd" "DAC2_0/b1" 0.0229364
+cap "DAC2_0/sw_2/vin2" "DAC2_0/sw_2/vin1" -2.04891
+cap "DAC2_0/b1" "DAC2_0/sw_2/vin1" -0.0148901
+cap "DAC2_0/sw_2/vin1" "avdd" 1.97816
+cap "avdd" "DAC2_0/sw_2/XM8/G" 1.05866
+cap "DAC2_0/sw_2/vin1" "DAC2_0/sw_2/vin2" -0.0995223
+cap "avdd" "DAC2_0/sw_2/vin2" 5.81898
+cap "sw_0/avdd" "DAC2_0/vout" 1.47453
+cap "sw_0/avdd" "DAC2_0/sw_2/avss" -0.930769
+merge "DAC2_0/VSUBS" "DAC2_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "DAC2_1/VSUBS" "sw_0/VSUBS"
+merge "sw_0/VSUBS" "VSUBS"
+merge "DAC2_1/sw_2/XM7/B" "DAC2_0/avss" -2452.93 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -183300 -3440 0 0 0 0 0 0 0 0 0 0 0 0
+merge "DAC2_0/avss" "DAC2_1/sw_2/avss"
+merge "DAC2_1/sw_2/avss" "li_1893_n330#"
+merge "li_1893_n330#" "DAC2_1/avss"
+merge "DAC2_1/avss" "avss"
+merge "avss" "sw_0/avss"
+merge "sw_0/avss" "li_4115_n2594#"
+merge "DAC2_0/sw_2/avdd" "DAC2_0/avdd" -2585.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44400 -1044 -157815 -2384 0 0 0 0 0 0 0 0 0 0
+merge "DAC2_0/avdd" "DAC2_0/sw_2/XM8/B"
+merge "DAC2_0/sw_2/XM8/B" "sw_0/avdd"
+merge "sw_0/avdd" "li_4180_1834#"
+merge "li_4180_1834#" "avdd"
+merge "avdd" "DAC2_0/sw_0/avdd"
+merge "DAC2_0/sw_0/avdd" "DAC2_1/avdd"
+merge "DAC2_1/avdd" "m1_21_n624#"
+merge "DAC2_0/vrefl" "DAC2_1/vrefh" -428.646 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15302 -956 0 0 0 0 0 0 0 0 0 0 0 0
+merge "DAC2_1/vrefh" "li_11_n63#"
+merge "DAC2_0/vout" "sw_0/vin1" -929.177 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24402 -658 -5640 -308 0 0 0 0 0 0 0 0
+merge "sw_0/vin1" "m1_2917_788#"
+merge "sw_0/vin2" "DAC2_1/vout" -1115.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25431 -640 -5130 -338 0 0 0 0 0 0 0 0
+merge "DAC2_1/vout" "m1_2893_n1058#"
+merge "DAC2_0/vrefh" "vrefh" -115.272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11542 -514 0 0 0 0 0 0 0 0 0 0 0 0
+merge "DAC2_1/sw_1/XM2/G" "DAC2_0/b0" -527.707 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -61008 -1484 0 0 0 0 0 0 0 0
+merge "DAC2_0/b0" "DAC2_1/b0"
+merge "DAC2_1/b0" "b0"
+merge "DAC2_1/vrefl" "vrefl" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "DAC2_0/b1" "DAC2_1/b1" -1044.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24424 -888 0 0 0 0 0 0 0 0
+merge "DAC2_1/b1" "b1"
+merge "sw_0/vout" "vout" -156.917 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33998 -738 0 0 0 0 0 0 0 0 0 0
+merge "sw_0/b_in" "b2" -157.69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32351 -720 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,83 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1790864185
+<< pwell >>
+rect -296 -679 296 679
+<< nmos >>
+rect -100 -531 100 469
+<< ndiff >>
+rect -158 457 -100 469
+rect -158 -519 -146 457
+rect -112 -519 -100 457
+rect -158 -531 -100 -519
+rect 100 457 158 469
+rect 100 -519 112 457
+rect 146 -519 158 457
+rect 100 -531 158 -519
+<< ndiffc >>
+rect -146 -519 -112 457
+rect 112 -519 146 457
+<< psubdiff >>
+rect -260 609 260 643
+rect -260 -609 -226 609
+rect 226 -609 260 609
+rect -260 -643 -164 -609
+rect 164 -643 260 -609
+<< psubdiffcont >>
+rect -164 -643 164 -609
+<< poly >>
+rect -100 541 100 557
+rect -100 507 -84 541
+rect 84 507 100 541
+rect -100 469 100 507
+rect -100 -557 100 -531
+<< polycont >>
+rect -84 507 84 541
+<< locali >>
+rect -100 507 -84 541
+rect 84 507 100 541
+rect -146 457 -112 473
+rect -146 -535 -112 -519
+rect 112 457 146 473
+rect 112 -535 146 -519
+rect -180 -643 -164 -609
+rect 164 -643 180 -609
+<< viali >>
+rect -84 507 84 541
+rect -146 -519 -112 457
+rect 112 -421 146 359
+<< metal1 >>
+rect -96 541 96 547
+rect -96 507 -84 541
+rect 84 507 96 541
+rect -96 501 96 507
+rect -152 457 -106 469
+rect -152 -519 -146 457
+rect -112 -519 -106 457
+rect 106 359 152 371
+rect 106 -421 112 359
+rect 146 -421 152 359
+rect 106 -433 152 -421
+rect -152 -531 -106 -519
+<< labels >>
+rlabel ndiffc -129 -31 -129 -31 0 D
+port 2 nsew
+rlabel ndiffc 129 -31 129 -31 0 S
+port 3 nsew
+rlabel polycont 0 524 0 524 0 G
+port 4 nsew
+flabel metal1 s -130 -31 -130 -31 0 FreeSans 320 0 0 0 D
+port 14 nsew
+flabel metal1 s 130 -31 130 -31 0 FreeSans 320 0 0 0 S
+port 16 nsew
+flabel metal1 s 1 524 1 524 0 FreeSans 320 0 0 0 G
+port 18 nsew
+flabel locali s 0 -626 0 -626 0 FreeSans 320 0 0 0 B
+port 20 nsew
+<< properties >>
+string FIXED_BBOX -243 -626 243 626
+string gencell sky130_fd_pr__nfet_01v8
+string library sky130
+string parameters w 5 l 1 m 1 nf 1 diffcov 100 polycov 100 guard 1 glc 0 grc 0 gtc 0 gbc 1 tbcov 100 rlcov 100 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 class mosfet compatible {sky130_fd_pr__nfet_01v8 sky130_fd_pr__nfet_01v8_lvt  sky130_fd_bs_flash__special_sonosfet_star  sky130_fd_pr__nfet_g5v0d10v5 sky130_fd_pr__nfet_05v0_nvt  sky130_fd_pr__nfet_03v3_nvt} full_metal 0 viasrc 80 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0 doports 1
+<< end >>

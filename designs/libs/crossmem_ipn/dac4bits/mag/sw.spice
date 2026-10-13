@@ -1,0 +1,21 @@
+* NGSPICE file created from sw.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_PHAC7Z B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_2H7JD5 B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.15
+.ends
+
+.subckt sw avdd b_in avss vin1 vout vin2
+XXM1 avss avss XM6/G b_in sky130_fd_pr__nfet_01v8_PHAC7Z
+XXM2 avdd avdd XM6/G b_in sky130_fd_pr__pfet_01v8_2H7JD5
+XXM3 avss avss XM8/G XM6/G sky130_fd_pr__nfet_01v8_PHAC7Z
+XXM4 avdd avdd XM8/G XM6/G sky130_fd_pr__pfet_01v8_2H7JD5
+XXM5 avdd vin1 vout XM6/G sky130_fd_pr__pfet_01v8_2H7JD5
+XXM6 avss vin2 vout XM6/G sky130_fd_pr__nfet_01v8_PHAC7Z
+XXM7 avss vout vin1 XM8/G sky130_fd_pr__nfet_01v8_PHAC7Z
+XXM8 avdd vout vin2 XM8/G sky130_fd_pr__pfet_01v8_2H7JD5
+.ends
+

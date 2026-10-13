@@ -1,0 +1,14 @@
+** sch_path: /foss/designs/crossmem_ipn/designs/libs/crossmem_ipn/opamp/opamp.sch
+.subckt opamp vdd vin1 vin2 vout vss
+*.PININFO vss:B vdd:B vout:O vin1:I vin2:I
+XM3 net1 net1 vdd vdd sky130_fd_pr__pfet_01v8 L=1 W=9 nf=1
+XM4 net2 net1 vdd vdd sky130_fd_pr__pfet_01v8 L=1 W=9 nf=1
+XM6 vout net2 vdd vdd sky130_fd_pr__pfet_01v8 L=1 W=8.65 nf=20
+XM1 net1 vin1 net3 vss sky130_fd_pr__nfet_01v8 L=1 W=5 nf=1
+XM2 net2 vin2 net3 vss sky130_fd_pr__nfet_01v8 L=1 W=5 nf=1
+XM5 net3 vb1 vss vss sky130_fd_pr__nfet_01v8 L=1 W=8 nf=1
+XM8 vb1 vb1 vss vss sky130_fd_pr__nfet_01v8 L=1 W=8 nf=1
+XM7 vout vb1 vss vss sky130_fd_pr__nfet_01v8 L=1 W=7 nf=16
+XC1 net2 vout sky130_fd_pr__cap_mim_m3_1 W=30 L=30
+XM9 vb1 vb1 vdd vdd sky130_fd_pr__pfet_01v8 L=0.5 W=0.5 nf=1
+.ends

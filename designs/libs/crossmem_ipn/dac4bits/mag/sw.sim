@@ -1,0 +1,57 @@
+| units: 500000 tech: sky130A format: MIT
+x b_in avss XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=1207 y=-930 sky130_fd_pr__nfet_01v8
+x b_in avdd XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=1207 y=-326 sky130_fd_pr__pfet_01v8
+x XM6/G avss XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=1523 y=-930 sky130_fd_pr__nfet_01v8
+x XM6/G avdd XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=1523 y=-326 sky130_fd_pr__pfet_01v8
+x XM6/G vin1 vout avdd s=5800,316 d=5800,316 l=30 w=100 x=1839 y=-326 sky130_fd_pr__pfet_01v8
+x XM6/G vin2 vout avss s=5800,316 d=5800,316 l=30 w=100 x=1839 y=-930 sky130_fd_pr__nfet_01v8
+x XM8/G vout vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=2155 y=-930 sky130_fd_pr__nfet_01v8
+x XM8/G vout vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=2155 y=-326 sky130_fd_pr__pfet_01v8
+R vin2 671
+= vin2 XM6/D
+= vin2 XM8/S
+R vout 2308
+= vout XM5/S
+= vout XM6/S
+= vout XM7/D
+= vout XM8/D
+R XM8/G 1885
+= XM8/G XM3/S
+= XM8/G XM4/S
+= XM8/G XM7/G
+= XM8/G m1_1562_n295#
+C avdd0 3.9
+R avdd 19487
+= avdd XM2/D
+= avdd XM2/B
+= avdd XM4/D
+= avdd XM4/B
+= avdd li_1372_n316#
+= avdd XM5/B
+= avdd XM8/B
+R avss 25813
+= avss XM1/D
+= avss XM1/B
+= avss XM2/VSUBS
+= avss XM3/D
+= avss XM3/B
+= avss li_1364_n930#
+= avss XM4/VSUBS
+= avss XM5/VSUBS
+= avss XM6/B
+= avss XM7/B
+= avss VSUBS
+= avss XM8/VSUBS
+R vin1 668
+= vin1 XM5/D
+= vin1 XM7/S
+R XM6/G 3203
+= XM6/G XM1/S
+= XM6/G XM2/S
+= XM6/G XM3/G
+= XM6/G XM4/G
+= XM6/G XM5/G
+= XM6/G m1_1247_n301#
+R b_in 1193
+= b_in XM1/G
+= b_in XM2/G

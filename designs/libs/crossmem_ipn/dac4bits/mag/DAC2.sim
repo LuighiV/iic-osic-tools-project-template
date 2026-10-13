@@ -1,0 +1,200 @@
+| units: 500000 tech: sky130A format: MIT
+x b0 avss sw_1/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=510 y=1807 sky130_fd_pr__nfet_01v8
+x b0 avdd sw_1/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=510 y=2411 sky130_fd_pr__pfet_01v8
+x sw_1/XM6/G avss sw_1/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=826 y=1807 sky130_fd_pr__nfet_01v8
+x sw_1/XM6/G avdd sw_1/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=826 y=2411 sky130_fd_pr__pfet_01v8
+x sw_1/XM6/G sw_1/vin1 sw_2/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=1142 y=2411 sky130_fd_pr__pfet_01v8
+x sw_1/XM6/G sw_1/vin2 sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1142 y=1807 sky130_fd_pr__nfet_01v8
+x sw_1/XM8/G sw_2/vin1 sw_1/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1458 y=1807 sky130_fd_pr__nfet_01v8
+x sw_1/XM8/G sw_2/vin1 sw_1/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=1458 y=2411 sky130_fd_pr__pfet_01v8
+x b1 avss sw_2/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=2590 y=1031 sky130_fd_pr__nfet_01v8
+x b1 avdd sw_2/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=2590 y=1635 sky130_fd_pr__pfet_01v8
+x sw_2/XM6/G avss sw_2/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=2906 y=1031 sky130_fd_pr__nfet_01v8
+x sw_2/XM6/G avdd sw_2/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=2906 y=1635 sky130_fd_pr__pfet_01v8
+x sw_2/XM6/G sw_2/vin1 vout avdd s=5800,316 d=5800,316 l=30 w=100 x=3222 y=1635 sky130_fd_pr__pfet_01v8
+x sw_2/XM6/G sw_2/vin2 vout avss s=5800,316 d=5800,316 l=30 w=100 x=3222 y=1031 sky130_fd_pr__nfet_01v8
+x sw_2/XM8/G vout sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=3538 y=1031 sky130_fd_pr__nfet_01v8
+x sw_2/XM8/G vout sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=3538 y=1635 sky130_fd_pr__pfet_01v8
+r sw_1/vin2 sw_0/vin1 0.000000
+r vrefh sw_1/vin1 0.000000
+r sw_0/vin1 vrefl 0.000000
+r sw_1/vin1 sw_1/vin2 0.000000
+x b0 avss sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=504 y=341 sky130_fd_pr__nfet_01v8
+x b0 avdd sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=504 y=945 sky130_fd_pr__pfet_01v8
+x sw_0/XM6/G avss sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=820 y=341 sky130_fd_pr__nfet_01v8
+x sw_0/XM6/G avdd sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=820 y=945 sky130_fd_pr__pfet_01v8
+x sw_0/XM6/G sw_0/vin1 sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=1136 y=945 sky130_fd_pr__pfet_01v8
+x sw_0/XM6/G vrefl sw_2/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=1136 y=341 sky130_fd_pr__nfet_01v8
+x sw_0/XM8/G sw_2/vin2 sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1452 y=341 sky130_fd_pr__nfet_01v8
+x sw_0/XM8/G sw_2/vin2 vrefl avdd s=5800,316 d=5800,316 l=30 w=100 x=1452 y=945 sky130_fd_pr__pfet_01v8
+R vrefl 666
+= vrefl sky130_fd_pr__res_generic_l1_BU56D2_0/R2_0
+= vrefl sw_0/vin2
+= vrefl sw_0/XM6/D
+= vrefl sw_0/XM8/S
+R sw_2/vin2 3845
+= sw_2/vin2 m1_1750_442#
+= sw_2/vin2 sw_2/XM6/D
+= sw_2/vin2 sw_2/XM8/S
+= sw_2/vin2 sw_0/vout
+= sw_2/vin2 sw_0/XM5/S
+= sw_2/vin2 sw_0/XM6/S
+= sw_2/vin2 sw_0/XM7/D
+= sw_2/vin2 sw_0/XM8/D
+R sw_0/XM8/G 1885
+= sw_0/XM8/G sw_0/XM3/S
+= sw_0/XM8/G sw_0/XM4/S
+= sw_0/XM8/G sw_0/XM7/G
+= sw_0/XM8/G sw_0/m1_1562_n295#
+C avdd0 12.2
+R avdd 64711
+= avdd sw_1/avdd
+= avdd sw_1/XM2/D
+= avdd sw_1/XM2/B
+= avdd sw_1/XM4/D
+= avdd sw_1/XM4/B
+= avdd sw_1/li_1372_n316#
+= avdd sw_1/XM5/B
+= avdd sw_1/XM8/B
+= avdd sw_2/avdd
+= avdd sw_2/XM2/D
+= avdd sw_2/XM2/B
+= avdd sw_2/XM4/D
+= avdd sw_2/XM4/B
+= avdd sw_2/li_1372_n316#
+= avdd sw_2/XM5/B
+= avdd sw_2/XM8/B
+= avdd sw_0/avdd
+= avdd m1_n368_1194#
+= avdd sw_0/XM2/D
+= avdd sw_0/XM2/B
+= avdd sw_0/XM4/D
+= avdd sw_0/XM4/B
+= avdd sw_0/li_1372_n316#
+= avdd sw_0/XM5/B
+= avdd sw_0/XM8/B
+R sw_0/vin1 615
+= sw_0/vin1 sky130_fd_pr__res_generic_l1_BU56D2_0/R1_0
+= sw_0/vin1 sky130_fd_pr__res_generic_l1_BU56D2_0/R2_1
+= sw_0/vin1 li_n388_508#
+= sw_0/vin1 sw_0/XM5/D
+= sw_0/vin1 sw_0/XM7/S
+R sw_0/XM6/G 3203
+= sw_0/XM6/G sw_0/XM1/S
+= sw_0/XM6/G sw_0/XM2/S
+= sw_0/XM6/G sw_0/XM3/G
+= sw_0/XM6/G sw_0/XM4/G
+= sw_0/XM6/G sw_0/XM5/G
+= sw_0/XM6/G sw_0/m1_1247_n301#
+R vrefh 13
+= vrefh sky130_fd_pr__res_generic_l1_BU56D2_0/R1_3
+R sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740# 13
+R sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830# 13
+R sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80# 13
+R sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990# 13
+R vout 2308
+= vout sw_2/vout
+= vout sw_2/XM5/S
+= vout sw_2/XM6/S
+= vout sw_2/XM7/D
+= vout sw_2/XM8/D
+R sw_2/XM8/G 1885
+= sw_2/XM8/G sw_2/XM3/S
+= sw_2/XM8/G sw_2/XM4/S
+= sw_2/XM8/G sw_2/XM7/G
+= sw_2/XM8/G sw_2/m1_1562_n295#
+R avss 78804
+= avss sky130_fd_pr__res_generic_l1_BU56D2_0/VSUBS
+= avss VSUBS
+= avss sw_0/avss
+= avss sw_0/XM1/D
+= avss sw_0/XM1/B
+= avss sw_0/XM2/VSUBS
+= avss sw_0/XM3/D
+= avss sw_0/XM3/B
+= avss sw_0/li_1364_n930#
+= avss sw_0/XM4/VSUBS
+= avss sw_0/XM5/VSUBS
+= avss sw_0/XM6/B
+= avss sw_0/XM7/B
+= avss sw_0/VSUBS
+= avss sw_0/XM8/VSUBS
+= avss sw_2/avss
+= avss sw_1/avss
+= avss sw_1/XM1/D
+= avss sw_1/XM1/B
+= avss sw_1/XM2/VSUBS
+= avss sw_1/XM3/D
+= avss sw_1/XM3/B
+= avss sw_1/li_1364_n930#
+= avss sw_1/XM4/VSUBS
+= avss sw_1/XM5/VSUBS
+= avss sw_1/XM6/B
+= avss sw_1/XM7/B
+= avss sw_1/VSUBS
+= avss sw_1/XM8/VSUBS
+= avss li_1635_1468#
+= avss sw_2/XM1/D
+= avss sw_2/XM1/B
+= avss sw_2/XM2/VSUBS
+= avss sw_2/XM3/D
+= avss sw_2/XM3/B
+= avss sw_2/li_1364_n930#
+= avss sw_2/XM4/VSUBS
+= avss sw_2/XM5/VSUBS
+= avss sw_2/XM6/B
+= avss sw_2/XM7/B
+= avss sw_2/VSUBS
+= avss sw_2/XM8/VSUBS
+R sw_2/XM6/G 3203
+= sw_2/XM6/G sw_2/XM1/S
+= sw_2/XM6/G sw_2/XM2/S
+= sw_2/XM6/G sw_2/XM3/G
+= sw_2/XM6/G sw_2/XM4/G
+= sw_2/XM6/G sw_2/XM5/G
+= sw_2/XM6/G sw_2/m1_1247_n301#
+R b1 1193
+= b1 sw_2/b_in
+= b1 sw_2/XM1/G
+= b1 sw_2/XM2/G
+R sw_1/vin2 694
+= sw_1/vin2 sky130_fd_pr__res_generic_l1_BU56D2_0/R1_1
+= sw_1/vin2 sky130_fd_pr__res_generic_l1_BU56D2_0/R2_2
+= sw_1/vin2 li_n396_1418#
+= sw_1/vin2 sw_1/XM6/D
+= sw_1/vin2 sw_1/XM8/S
+R sw_2/vin1 3842
+= sw_2/vin1 m1_1763_1855#
+= sw_2/vin1 sw_2/XM5/D
+= sw_2/vin1 sw_2/XM7/S
+= sw_2/vin1 sw_1/vout
+= sw_2/vin1 sw_1/XM5/S
+= sw_2/vin1 sw_1/XM6/S
+= sw_2/vin1 sw_1/XM7/D
+= sw_2/vin1 sw_1/XM8/D
+R sw_1/XM8/G 1885
+= sw_1/XM8/G sw_1/XM3/S
+= sw_1/XM8/G sw_1/XM4/S
+= sw_1/XM8/G sw_1/XM7/G
+= sw_1/XM8/G sw_1/m1_1562_n295#
+R sw_1/vin1 605
+= sw_1/vin1 sky130_fd_pr__res_generic_l1_BU56D2_0/R1_2
+= sw_1/vin1 sky130_fd_pr__res_generic_l1_BU56D2_0/R2_3
+= sw_1/vin1 li_n386_2303#
+= sw_1/vin1 sw_1/XM5/D
+= sw_1/vin1 sw_1/XM7/S
+R sw_1/XM6/G 3203
+= sw_1/XM6/G sw_1/XM1/S
+= sw_1/XM6/G sw_1/XM2/S
+= sw_1/XM6/G sw_1/XM3/G
+= sw_1/XM6/G sw_1/XM4/G
+= sw_1/XM6/G sw_1/XM5/G
+= sw_1/XM6/G sw_1/m1_1247_n301#
+C b00 2.0
+R b0 2514
+= b0 sw_0/b_in
+= b0 sw_0/XM1/G
+= b0 sw_0/XM2/G
+= b0 sw_1/b_in
+= b0 sw_1/XM1/G
+= b0 sw_1/XM2/G

@@ -1,0 +1,19 @@
+
+{
+    "DESIGN_NAME": "priority_encoder",
+    "VERILOG_FILES": [
+        "dir::priority_encoder.v"
+    ],
+    "CLOCK_PORT": null,
+    "CLOCK_PERIOD": 10.0,
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 40 40",
+    "PL_TARGET_DENSITY_PCT": 55,
+    "PL_RANDOM_INITIAL_PLACEMENT": 1,
+    "DESIGN_IS_CORE": 0,
+    "FP_PDN_CORE_RING": 0,
+    "SYNTH_NO_FLOP_BOUNDS": 1,
+    "PRIMARY_SIGNOFF_TOOL": "magic",
+    "QUIT_ON_TIMING_VIOLATIONS": 0,
+    "IO_PIN_ORDER_CFG": "dir::pin.cfg"
+}

@@ -1,0 +1,117 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1790259440
+<< locali >>
+rect -390 3190 -190 3246
+rect -195 2430 -110 2436
+rect -195 2424 -30 2430
+rect -195 2388 -110 2424
+rect -386 2351 -110 2388
+rect -37 2351 -30 2424
+rect -386 2303 -30 2351
+rect -115 2302 -30 2303
+rect -2 1869 82 1875
+rect -2 1797 4 1869
+rect 76 1797 82 1869
+rect -2 1502 82 1797
+rect -396 1418 82 1502
+rect 1635 1468 2120 1663
+rect 1925 1300 2120 1468
+rect 1925 1105 2458 1300
+rect -388 567 -68 573
+rect -388 514 -128 567
+rect -75 514 -68 567
+rect -388 508 -68 514
+rect -392 -300 -58 -294
+rect -392 -368 -132 -300
+rect -64 -368 -58 -300
+rect -392 -374 -58 -368
+<< viali >>
+rect -110 2351 -37 2424
+rect 4 1797 76 1869
+rect -128 514 -75 567
+rect -132 -368 -64 -300
+<< metal1 >>
+rect -368 2660 92 2860
+rect 1834 2664 2305 2864
+rect -368 1394 -168 2660
+rect -116 2430 -31 2436
+rect -116 2424 186 2430
+rect -116 2351 -110 2424
+rect -37 2351 186 2424
+rect -116 2345 186 2351
+rect -116 2339 -31 2345
+rect 202 2245 325 2251
+rect 202 2116 325 2122
+rect -8 1869 167 1875
+rect -8 1797 4 1869
+rect 76 1797 167 1869
+rect 1763 1855 2016 1916
+rect 2105 1884 2305 2664
+rect -8 1791 167 1797
+rect 1955 1817 2016 1855
+rect 1955 1756 2322 1817
+rect -368 1194 219 1394
+rect -134 946 153 1011
+rect 1750 979 2365 1049
+rect 3746 1042 3942 1238
+rect -134 567 -69 946
+rect 47 669 53 792
+rect 176 669 346 792
+rect -134 514 -128 567
+rect -75 514 -69 567
+rect -134 502 -69 514
+rect 1750 442 1820 979
+rect -138 273 175 353
+rect -138 -300 -58 273
+rect 2086 206 2286 894
+rect 1762 6 2286 206
+rect -138 -368 -132 -300
+rect -64 -368 -58 -300
+rect -138 -380 -58 -368
+<< via1 >>
+rect 202 2122 325 2245
+rect 2310 1361 2429 1480
+rect 53 669 176 792
+<< metal2 >>
+rect -103 2122 202 2245
+rect 325 2122 331 2245
+rect -103 792 20 2122
+rect 2310 1480 2429 1486
+rect 2310 1355 2429 1361
+rect 53 792 176 798
+rect -103 669 53 792
+rect 53 663 176 669
+use sky130_fd_pr__res_generic_l1_BU56D2  sky130_fd_pr__res_generic_l1_BU56D2_0
+timestamp 1790088086
+transform 1 0 -290 0 1 1447
+box -100 -1797 100 1797
+use sw  sw_0
+timestamp 1790085333
+transform 1 0 -703 0 1 1271
+box 703 -1271 2660 124
+use sw  sw_1
+timestamp 1790085333
+transform 1 0 -697 0 1 2737
+box 703 -1271 2660 124
+use sw  sw_2
+timestamp 1790085333
+transform 1 0 1383 0 1 1961
+box 703 -1271 2660 124
+<< labels >>
+flabel metal1 s 2194 2760 2194 2760 0 FreeSans 800 0 0 0 avdd
+port 0 nsew
+flabel metal1 s 2180 94 2180 94 0 FreeSans 800 0 0 0 avss
+port 1 nsew
+flabel metal2 s -50 1460 -50 1460 0 FreeSans 800 0 0 0 b0
+port 2 nsew
+flabel via1 2370 1410 2370 1410 0 FreeSans 800 0 0 0 b1
+port 3 nsew
+flabel locali s -298 3212 -298 3212 0 FreeSans 800 0 0 0 vrefh
+port 4 nsew
+flabel locali s -270 -330 -270 -330 0 FreeSans 800 0 0 0 vrefl
+port 5 nsew
+flabel metal1 s 3838 1130 3838 1130 0 FreeSans 1600 0 0 0 vout
+port 6 nsew
+<< end >>

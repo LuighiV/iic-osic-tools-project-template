@@ -1,0 +1,2095 @@
+| units: 500000 tech: sky130A format: MIT
+x b0 avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=908 y=13027 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=908 y=13631 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=1224 y=13027 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G avdd DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=1224 y=13631 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_1/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=1540 y=13631 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_1/vin2 DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1540 y=13027 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/DAC2_0/sw_1/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1856 y=13027 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/DAC2_0/sw_1/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=1856 y=13631 sky130_fd_pr__pfet_01v8
+x b1 avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=2988 y=12251 sky130_fd_pr__nfet_01v8
+x b1 avdd DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=2988 y=12855 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=3304 y=12251 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G avdd DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=3304 y=12855 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/sw_0/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=3620 y=12855 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=3620 y=12251 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=3936 y=12251 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=3936 y=12855 sky130_fd_pr__pfet_01v8
+r DAC4_0/DAC3_0/DAC2_0/sw_1/vin2 DAC4_0/DAC3_0/DAC2_0/sw_0/vin1 0.000000
+r vrefh DAC4_0/DAC3_0/DAC2_0/sw_1/vin1 0.000000
+r DAC4_0/DAC3_0/DAC2_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_1/vrefh 0.000000
+r DAC4_0/DAC3_0/DAC2_0/sw_1/vin1 DAC4_0/DAC3_0/DAC2_0/sw_1/vin2 0.000000
+x b0 avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=902 y=11561 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=902 y=12165 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=1218 y=11561 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G avdd DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=1218 y=12165 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=1534 y=12165 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_1/vrefh DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=1534 y=11561 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/DAC2_0/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1850 y=11561 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/DAC2_1/vrefh avdd s=5800,316 d=5800,316 l=30 w=100 x=1850 y=12165 sky130_fd_pr__pfet_01v8
+x b0 avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=908 y=9401 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=908 y=10005 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=1224 y=9401 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G avdd DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=1224 y=10005 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_1/vin1 DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=1540 y=10005 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_1/vin2 DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1540 y=9401 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/DAC2_1/sw_1/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1856 y=9401 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/DAC2_1/sw_1/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=1856 y=10005 sky130_fd_pr__pfet_01v8
+x b1 avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=2988 y=8625 sky130_fd_pr__nfet_01v8
+x b1 avdd DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=2988 y=9229 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=3304 y=8625 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G avdd DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=3304 y=9229 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=3620 y=9229 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_0/sw_0/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=3620 y=8625 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=3936 y=8625 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=3936 y=9229 sky130_fd_pr__pfet_01v8
+r DAC4_0/DAC3_0/DAC2_1/sw_1/vin2 DAC4_0/DAC3_0/DAC2_1/sw_0/vin1 0.000000
+r DAC4_0/DAC3_0/DAC2_1/vrefh DAC4_0/DAC3_0/DAC2_1/sw_1/vin1 0.000000
+r DAC4_0/DAC3_0/DAC2_1/sw_0/vin1 DAC4_0/DAC3_1/vrefh 0.000000
+r DAC4_0/DAC3_0/DAC2_1/sw_1/vin1 DAC4_0/DAC3_0/DAC2_1/sw_1/vin2 0.000000
+x b0 avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=902 y=7935 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=902 y=8539 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=1218 y=7935 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G avdd DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=1218 y=8539 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_0/vin1 DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=1534 y=8539 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_1/vrefh DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=1534 y=7935 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_0/DAC2_1/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1850 y=7935 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/vrefh avdd s=5800,316 d=5800,316 l=30 w=100 x=1850 y=8539 sky130_fd_pr__pfet_01v8
+x b2 avss DAC4_0/DAC3_0/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=3289 y=10467 sky130_fd_pr__nfet_01v8
+x b2 avdd DAC4_0/DAC3_0/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=3289 y=11071 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/sw_0/XM6/G avss DAC4_0/DAC3_0/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=3605 y=10467 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/sw_0/XM6/G avdd DAC4_0/DAC3_0/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=3605 y=11071 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/sw_0/XM6/G DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/sw_0/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=3921 y=11071 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_0/sw_0/XM6/G DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=3921 y=10467 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/sw_0/XM8/G DAC4_0/sw_0/vin1 DAC4_0/DAC3_0/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=4237 y=10467 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_0/sw_0/XM8/G DAC4_0/sw_0/vin1 DAC4_0/DAC3_0/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=4237 y=11071 sky130_fd_pr__pfet_01v8
+x b0 avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=906 y=5813 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=906 y=6417 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=1222 y=5813 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G avdd DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=1222 y=6417 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_1/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=1538 y=6417 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_1/vin2 DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1538 y=5813 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/DAC2_0/sw_1/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1854 y=5813 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/DAC2_0/sw_1/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=1854 y=6417 sky130_fd_pr__pfet_01v8
+x b1 avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=2986 y=5037 sky130_fd_pr__nfet_01v8
+x b1 avdd DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=2986 y=5641 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=3302 y=5037 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G avdd DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=3302 y=5641 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/sw_0/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=3618 y=5641 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=3618 y=5037 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=3934 y=5037 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=3934 y=5641 sky130_fd_pr__pfet_01v8
+r DAC4_0/DAC3_1/DAC2_0/sw_1/vin2 DAC4_0/DAC3_1/DAC2_0/sw_0/vin1 0.000000
+r DAC4_0/DAC3_1/vrefh DAC4_0/DAC3_1/DAC2_0/sw_1/vin1 0.000000
+r DAC4_0/DAC3_1/DAC2_0/sw_0/vin1 DAC4_0/DAC3_1/DAC2_1/vrefh 0.000000
+r DAC4_0/DAC3_1/DAC2_0/sw_1/vin1 DAC4_0/DAC3_1/DAC2_0/sw_1/vin2 0.000000
+x b0 avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=900 y=4347 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=900 y=4951 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=1216 y=4347 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G avdd DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=1216 y=4951 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=1532 y=4951 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_1/vrefh DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=1532 y=4347 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/DAC2_0/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1848 y=4347 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/DAC2_1/vrefh avdd s=5800,316 d=5800,316 l=30 w=100 x=1848 y=4951 sky130_fd_pr__pfet_01v8
+x b0 avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=906 y=2187 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=906 y=2791 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=1222 y=2187 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G avdd DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=1222 y=2791 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_1/vin1 DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=1538 y=2791 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_1/vin2 DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1538 y=2187 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/DAC2_1/sw_1/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1854 y=2187 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/DAC2_1/sw_1/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=1854 y=2791 sky130_fd_pr__pfet_01v8
+x b1 avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=2986 y=1411 sky130_fd_pr__nfet_01v8
+x b1 avdd DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=2986 y=2015 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=3302 y=1411 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G avdd DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=3302 y=2015 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=3618 y=2015 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/sw_0/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=3618 y=1411 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=3934 y=1411 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=3934 y=2015 sky130_fd_pr__pfet_01v8
+r DAC4_0/DAC3_1/DAC2_1/sw_1/vin2 DAC4_0/DAC3_1/DAC2_1/sw_0/vin1 0.000000
+r DAC4_0/DAC3_1/DAC2_1/vrefh DAC4_0/DAC3_1/DAC2_1/sw_1/vin1 0.000000
+r DAC4_0/DAC3_1/DAC2_1/sw_0/vin1 DAC4_1/vrefh 0.000000
+r DAC4_0/DAC3_1/DAC2_1/sw_1/vin1 DAC4_0/DAC3_1/DAC2_1/sw_1/vin2 0.000000
+x b0 avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=900 y=721 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=900 y=1325 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=1216 y=721 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G avdd DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=1216 y=1325 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=1532 y=1325 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_1/vrefh DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=1532 y=721 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/DAC2_1/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=1848 y=721 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/vrefh avdd s=5800,316 d=5800,316 l=30 w=100 x=1848 y=1325 sky130_fd_pr__pfet_01v8
+x b2 avss DAC4_0/DAC3_1/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=3287 y=3253 sky130_fd_pr__nfet_01v8
+x b2 avdd DAC4_0/DAC3_1/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=3287 y=3857 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/sw_0/XM6/G avss DAC4_0/DAC3_1/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=3603 y=3253 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/sw_0/XM6/G avdd DAC4_0/DAC3_1/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=3603 y=3857 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/sw_0/XM6/G DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=3919 y=3857 sky130_fd_pr__pfet_01v8
+x DAC4_0/DAC3_1/sw_0/XM6/G DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/sw_0/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=3919 y=3253 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/sw_0/XM8/G DAC4_0/sw_0/vin2 DAC4_0/DAC3_1/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=4235 y=3253 sky130_fd_pr__nfet_01v8
+x DAC4_0/DAC3_1/sw_0/XM8/G DAC4_0/sw_0/vin2 DAC4_0/DAC3_1/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=4235 y=3857 sky130_fd_pr__pfet_01v8
+x b3 avss DAC4_0/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=3492 y=6757 sky130_fd_pr__nfet_01v8
+x b3 avdd DAC4_0/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=3492 y=7361 sky130_fd_pr__pfet_01v8
+x DAC4_0/sw_0/XM6/G avss DAC4_0/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=3808 y=6757 sky130_fd_pr__nfet_01v8
+x DAC4_0/sw_0/XM6/G avdd DAC4_0/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=3808 y=7361 sky130_fd_pr__pfet_01v8
+x DAC4_0/sw_0/XM6/G DAC4_0/sw_0/vin1 sw_0/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=4124 y=7361 sky130_fd_pr__pfet_01v8
+x DAC4_0/sw_0/XM6/G DAC4_0/sw_0/vin2 sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=4124 y=6757 sky130_fd_pr__nfet_01v8
+x DAC4_0/sw_0/XM8/G sw_0/vin1 DAC4_0/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=4440 y=6757 sky130_fd_pr__nfet_01v8
+x DAC4_0/sw_0/XM8/G sw_0/vin1 DAC4_0/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=4440 y=7361 sky130_fd_pr__pfet_01v8
+x b0 avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=10668 y=1481 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10668 y=877 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=10352 y=1481 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G avdd DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10352 y=877 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_1/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=10036 y=877 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_1/vin2 DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=10036 y=1481 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/DAC2_0/sw_1/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=9720 y=1481 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/DAC2_0/sw_1/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=9720 y=877 sky130_fd_pr__pfet_01v8
+x b1 avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=8588 y=2257 sky130_fd_pr__nfet_01v8
+x b1 avdd DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8588 y=1653 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=8272 y=2257 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G avdd DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8272 y=1653 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/sw_0/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=7956 y=1653 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=7956 y=2257 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=7640 y=2257 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7640 y=1653 sky130_fd_pr__pfet_01v8
+r DAC4_1/DAC3_0/DAC2_0/sw_1/vin2 DAC4_1/DAC3_0/DAC2_0/sw_0/vin1 0.000000
+r DAC4_1/vrefh DAC4_1/DAC3_0/DAC2_0/sw_1/vin1 0.000000
+r DAC4_1/DAC3_0/DAC2_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_1/vrefh 0.000000
+r DAC4_1/DAC3_0/DAC2_0/sw_1/vin1 DAC4_1/DAC3_0/DAC2_0/sw_1/vin2 0.000000
+x b0 avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=10674 y=2947 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10674 y=2343 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=10358 y=2947 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G avdd DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10358 y=2343 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=10042 y=2343 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_1/vrefh DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=10042 y=2947 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/DAC2_0/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=9726 y=2947 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/DAC2_1/vrefh avdd s=5800,316 d=5800,316 l=30 w=100 x=9726 y=2343 sky130_fd_pr__pfet_01v8
+x b0 avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=10668 y=5107 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10668 y=4503 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=10352 y=5107 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G avdd DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10352 y=4503 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_1/vin1 DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=10036 y=4503 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_1/vin2 DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=10036 y=5107 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/DAC2_1/sw_1/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=9720 y=5107 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/DAC2_1/sw_1/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=9720 y=4503 sky130_fd_pr__pfet_01v8
+x b1 avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=8588 y=5883 sky130_fd_pr__nfet_01v8
+x b1 avdd DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8588 y=5279 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=8272 y=5883 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G avdd DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8272 y=5279 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7956 y=5279 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_0/sw_0/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=7956 y=5883 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=7640 y=5883 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7640 y=5279 sky130_fd_pr__pfet_01v8
+r DAC4_1/DAC3_0/DAC2_1/sw_1/vin2 DAC4_1/DAC3_0/DAC2_1/sw_0/vin1 0.000000
+r DAC4_1/DAC3_0/DAC2_1/vrefh DAC4_1/DAC3_0/DAC2_1/sw_1/vin1 0.000000
+r DAC4_1/DAC3_0/DAC2_1/sw_0/vin1 DAC4_1/DAC3_1/vrefh 0.000000
+r DAC4_1/DAC3_0/DAC2_1/sw_1/vin1 DAC4_1/DAC3_0/DAC2_1/sw_1/vin2 0.000000
+x b0 avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=10674 y=6573 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10674 y=5969 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=10358 y=6573 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G avdd DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10358 y=5969 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_0/vin1 DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=10042 y=5969 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_1/vrefh DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=10042 y=6573 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_0/DAC2_1/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=9726 y=6573 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/vrefh avdd s=5800,316 d=5800,316 l=30 w=100 x=9726 y=5969 sky130_fd_pr__pfet_01v8
+x b2 avss DAC4_1/DAC3_0/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=8287 y=4041 sky130_fd_pr__nfet_01v8
+x b2 avdd DAC4_1/DAC3_0/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8287 y=3437 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/sw_0/XM6/G avss DAC4_1/DAC3_0/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=7971 y=4041 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/sw_0/XM6/G avdd DAC4_1/DAC3_0/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=7971 y=3437 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/sw_0/XM6/G DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/sw_0/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=7655 y=3437 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_0/sw_0/XM6/G DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=7655 y=4041 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/sw_0/XM8/G DAC4_1/sw_0/vin1 DAC4_1/DAC3_0/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=7339 y=4041 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_0/sw_0/XM8/G DAC4_1/sw_0/vin1 DAC4_1/DAC3_0/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7339 y=3437 sky130_fd_pr__pfet_01v8
+x b0 avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=10670 y=8695 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10670 y=8091 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=10354 y=8695 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G avdd DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10354 y=8091 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_1/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=10038 y=8091 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_1/vin2 DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=10038 y=8695 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/DAC2_0/sw_1/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=9722 y=8695 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/DAC2_0/sw_1/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=9722 y=8091 sky130_fd_pr__pfet_01v8
+x b1 avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=8590 y=9471 sky130_fd_pr__nfet_01v8
+x b1 avdd DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8590 y=8867 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=8274 y=9471 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G avdd DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8274 y=8867 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/sw_0/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=7958 y=8867 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=7958 y=9471 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=7642 y=9471 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7642 y=8867 sky130_fd_pr__pfet_01v8
+r DAC4_1/DAC3_1/DAC2_0/sw_1/vin2 DAC4_1/DAC3_1/DAC2_0/sw_0/vin1 0.000000
+r DAC4_1/DAC3_1/vrefh DAC4_1/DAC3_1/DAC2_0/sw_1/vin1 0.000000
+r DAC4_1/DAC3_1/DAC2_0/sw_0/vin1 DAC4_1/DAC3_1/DAC2_1/vrefh 0.000000
+r DAC4_1/DAC3_1/DAC2_0/sw_1/vin1 DAC4_1/DAC3_1/DAC2_0/sw_1/vin2 0.000000
+x b0 avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=10676 y=10161 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10676 y=9557 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=10360 y=10161 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G avdd DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10360 y=9557 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=10044 y=9557 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_1/vrefh DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=10044 y=10161 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/DAC2_0/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=9728 y=10161 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/DAC2_1/vrefh avdd s=5800,316 d=5800,316 l=30 w=100 x=9728 y=9557 sky130_fd_pr__pfet_01v8
+x b0 avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=10670 y=12321 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10670 y=11717 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=10354 y=12321 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G avdd DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10354 y=11717 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_1/vin1 DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 avdd s=5800,316 d=5800,316 l=30 w=100 x=10038 y=11717 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_1/vin2 DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=10038 y=12321 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/DAC2_1/sw_1/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=9722 y=12321 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/DAC2_1/sw_1/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=9722 y=11717 sky130_fd_pr__pfet_01v8
+x b1 avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=8590 y=13097 sky130_fd_pr__nfet_01v8
+x b1 avdd DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8590 y=12493 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=8274 y=13097 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G avdd DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8274 y=12493 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7958 y=12493 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/sw_0/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=7958 y=13097 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=7642 y=13097 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7642 y=12493 sky130_fd_pr__pfet_01v8
+r DAC4_1/DAC3_1/DAC2_1/sw_1/vin2 DAC4_1/DAC3_1/DAC2_1/sw_0/vin1 0.000000
+r DAC4_1/DAC3_1/DAC2_1/vrefh DAC4_1/DAC3_1/DAC2_1/sw_1/vin1 0.000000
+r DAC4_1/DAC3_1/DAC2_1/sw_0/vin1 vrefl 0.000000
+r DAC4_1/DAC3_1/DAC2_1/sw_1/vin1 DAC4_1/DAC3_1/DAC2_1/sw_1/vin2 0.000000
+x b0 avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=10676 y=13787 sky130_fd_pr__nfet_01v8
+x b0 avdd DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10676 y=13183 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=10360 y=13787 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G avdd DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=10360 y=13183 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=10044 y=13183 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G vrefl DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=10044 y=13787 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/DAC2_1/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=9728 y=13787 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 vrefl avdd s=5800,316 d=5800,316 l=30 w=100 x=9728 y=13183 sky130_fd_pr__pfet_01v8
+x b2 avss DAC4_1/DAC3_1/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=8289 y=11255 sky130_fd_pr__nfet_01v8
+x b2 avdd DAC4_1/DAC3_1/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8289 y=10651 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/sw_0/XM6/G avss DAC4_1/DAC3_1/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=7973 y=11255 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/sw_0/XM6/G avdd DAC4_1/DAC3_1/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=7973 y=10651 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/sw_0/XM6/G DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7657 y=10651 sky130_fd_pr__pfet_01v8
+x DAC4_1/DAC3_1/sw_0/XM6/G DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/sw_0/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=7657 y=11255 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/sw_0/XM8/G DAC4_1/sw_0/vin2 DAC4_1/DAC3_1/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=7341 y=11255 sky130_fd_pr__nfet_01v8
+x DAC4_1/DAC3_1/sw_0/XM8/G DAC4_1/sw_0/vin2 DAC4_1/DAC3_1/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7341 y=10651 sky130_fd_pr__pfet_01v8
+x b3 avss DAC4_1/sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=8084 y=7751 sky130_fd_pr__nfet_01v8
+x b3 avdd DAC4_1/sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=8084 y=7147 sky130_fd_pr__pfet_01v8
+x DAC4_1/sw_0/XM6/G avss DAC4_1/sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=7768 y=7751 sky130_fd_pr__nfet_01v8
+x DAC4_1/sw_0/XM6/G avdd DAC4_1/sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=7768 y=7147 sky130_fd_pr__pfet_01v8
+x DAC4_1/sw_0/XM6/G DAC4_1/sw_0/vin1 sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7452 y=7147 sky130_fd_pr__pfet_01v8
+x DAC4_1/sw_0/XM6/G DAC4_1/sw_0/vin2 sw_0/vin2 avss s=5800,316 d=5800,316 l=30 w=100 x=7452 y=7751 sky130_fd_pr__nfet_01v8
+x DAC4_1/sw_0/XM8/G sw_0/vin2 DAC4_1/sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=7136 y=7751 sky130_fd_pr__nfet_01v8
+x DAC4_1/sw_0/XM8/G sw_0/vin2 DAC4_1/sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=7136 y=7147 sky130_fd_pr__pfet_01v8
+x b4 avss sw_0/XM6/G avss s=5800,316 d=5800,316 l=30 w=100 x=6132 y=7775 sky130_fd_pr__nfet_01v8
+x b4 avdd sw_0/XM6/G avdd s=5800,316 d=5800,316 l=30 w=100 x=5528 y=7775 sky130_fd_pr__pfet_01v8
+x sw_0/XM6/G avss sw_0/XM8/G avss s=5800,316 d=5800,316 l=30 w=100 x=6132 y=8091 sky130_fd_pr__nfet_01v8
+x sw_0/XM6/G avdd sw_0/XM8/G avdd s=5800,316 d=5800,316 l=30 w=100 x=5528 y=8091 sky130_fd_pr__pfet_01v8
+x sw_0/XM6/G sw_0/vin1 vout avdd s=5800,316 d=5800,316 l=30 w=100 x=5528 y=8407 sky130_fd_pr__pfet_01v8
+x sw_0/XM6/G sw_0/vin2 vout avss s=5800,316 d=5800,316 l=30 w=100 x=6132 y=8407 sky130_fd_pr__nfet_01v8
+x sw_0/XM8/G vout sw_0/vin1 avss s=5800,316 d=5800,316 l=30 w=100 x=6132 y=8723 sky130_fd_pr__nfet_01v8
+x sw_0/XM8/G vout sw_0/vin2 avdd s=5800,316 d=5800,316 l=30 w=100 x=5528 y=8723 sky130_fd_pr__pfet_01v8
+C b1 b2 5.6
+C b1 avdd 10.1
+C b0 avdd 18.4
+C avdd b3 2.0
+C avdd b2 6.8
+R vout 2308
+= vout sw_0/vout
+= vout sw_0/XM5/S
+= vout sw_0/XM6/S
+= vout sw_0/XM7/D
+= vout sw_0/XM8/D
+R sw_0/XM8/G 1885
+= sw_0/XM8/G sw_0/XM3/S
+= sw_0/XM8/G sw_0/XM4/S
+= sw_0/XM8/G sw_0/XM7/G
+= sw_0/XM8/G sw_0/m1_1562_n295#
+R sw_0/XM6/G 3203
+= sw_0/XM6/G sw_0/XM1/S
+= sw_0/XM6/G sw_0/XM2/S
+= sw_0/XM6/G sw_0/XM3/G
+= sw_0/XM6/G sw_0/XM4/G
+= sw_0/XM6/G sw_0/XM5/G
+= sw_0/XM6/G sw_0/m1_1247_n301#
+R b4 1193
+= b4 sw_0/b_in
+= b4 sw_0/XM1/G
+= b4 sw_0/XM2/G
+R sw_0/vin2 3844
+= sw_0/vin2 sw_0/XM6/D
+= sw_0/vin2 sw_0/XM8/S
+= sw_0/vin2 DAC4_1/vout
+= sw_0/vin2 m1_6018_7025#
+= sw_0/vin2 DAC4_1/sw_0/vout
+= sw_0/vin2 DAC4_1/sw_0/XM5/S
+= sw_0/vin2 DAC4_1/sw_0/XM6/S
+= sw_0/vin2 DAC4_1/sw_0/XM7/D
+= sw_0/vin2 DAC4_1/sw_0/XM8/D
+R DAC4_1/sw_0/XM8/G 1885
+= DAC4_1/sw_0/XM8/G DAC4_1/sw_0/XM3/S
+= DAC4_1/sw_0/XM8/G DAC4_1/sw_0/XM4/S
+= DAC4_1/sw_0/XM8/G DAC4_1/sw_0/XM7/G
+= DAC4_1/sw_0/XM8/G DAC4_1/sw_0/m1_1562_n295#
+R DAC4_1/sw_0/XM6/G 3203
+= DAC4_1/sw_0/XM6/G DAC4_1/sw_0/XM1/S
+= DAC4_1/sw_0/XM6/G DAC4_1/sw_0/XM2/S
+= DAC4_1/sw_0/XM6/G DAC4_1/sw_0/XM3/G
+= DAC4_1/sw_0/XM6/G DAC4_1/sw_0/XM4/G
+= DAC4_1/sw_0/XM6/G DAC4_1/sw_0/XM5/G
+= DAC4_1/sw_0/XM6/G DAC4_1/sw_0/m1_1247_n301#
+C DAC4_1/sw_0/vin20 3.7
+R DAC4_1/sw_0/vin2 3848
+= DAC4_1/sw_0/vin2 DAC4_1/sw_0/XM6/D
+= DAC4_1/sw_0/vin2 DAC4_1/sw_0/XM8/S
+= DAC4_1/sw_0/vin2 DAC4_1/DAC3_1/vout
+= DAC4_1/sw_0/vin2 DAC4_1/m1_2627_n1105#
+= DAC4_1/sw_0/vin2 DAC4_1/DAC3_1/sw_0/vout
+= DAC4_1/sw_0/vin2 DAC4_1/DAC3_1/sw_0/XM5/S
+= DAC4_1/sw_0/vin2 DAC4_1/DAC3_1/sw_0/XM6/S
+= DAC4_1/sw_0/vin2 DAC4_1/DAC3_1/sw_0/XM7/D
+= DAC4_1/sw_0/vin2 DAC4_1/DAC3_1/sw_0/XM8/D
+R DAC4_1/DAC3_1/sw_0/XM8/G 1885
+= DAC4_1/DAC3_1/sw_0/XM8/G DAC4_1/DAC3_1/sw_0/XM3/S
+= DAC4_1/DAC3_1/sw_0/XM8/G DAC4_1/DAC3_1/sw_0/XM4/S
+= DAC4_1/DAC3_1/sw_0/XM8/G DAC4_1/DAC3_1/sw_0/XM7/G
+= DAC4_1/DAC3_1/sw_0/XM8/G DAC4_1/DAC3_1/sw_0/m1_1562_n295#
+R DAC4_1/DAC3_1/sw_0/XM6/G 3203
+= DAC4_1/DAC3_1/sw_0/XM6/G DAC4_1/DAC3_1/sw_0/XM1/S
+= DAC4_1/DAC3_1/sw_0/XM6/G DAC4_1/DAC3_1/sw_0/XM2/S
+= DAC4_1/DAC3_1/sw_0/XM6/G DAC4_1/DAC3_1/sw_0/XM3/G
+= DAC4_1/DAC3_1/sw_0/XM6/G DAC4_1/DAC3_1/sw_0/XM4/G
+= DAC4_1/DAC3_1/sw_0/XM6/G DAC4_1/DAC3_1/sw_0/XM5/G
+= DAC4_1/DAC3_1/sw_0/XM6/G DAC4_1/DAC3_1/sw_0/m1_1247_n301#
+R vrefl 666
+= vrefl DAC4_1/vrefl
+= vrefl DAC4_1/DAC3_1/vrefl
+= vrefl DAC4_1/DAC3_1/DAC2_1/vrefl
+= vrefl DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_0
+= vrefl DAC4_1/DAC3_1/DAC2_1/sw_0/vin2
+= vrefl DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/D
+= vrefl DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/S
+R DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 3845
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/DAC2_1/m1_1750_442#
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/D
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/S
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/DAC2_1/sw_0/vout
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/DAC2_1/sw_0/XM5/S
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/S
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/DAC2_1/sw_0/XM7/D
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin2 DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/D
+R DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/G 1885
+= DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_0/XM3/S
+= DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_0/XM4/S
+= DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_0/XM7/G
+= DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_0/m1_1562_n295#
+C avdd0 131.5
+R avdd 693636
+= avdd li_4087_2021#
+= avdd DAC4_0/avdd
+= avdd DAC4_0/sw_0/avdd
+= avdd DAC4_0/DAC3_0/avdd
+= avdd DAC4_0/DAC3_0/sw_0/avdd
+= avdd DAC4_0/DAC3_0/sw_0/XM2/D
+= avdd DAC4_0/DAC3_0/sw_0/XM2/B
+= avdd DAC4_0/DAC3_0/sw_0/XM4/D
+= avdd DAC4_0/DAC3_0/sw_0/XM4/B
+= avdd DAC4_0/DAC3_0/sw_0/li_1372_n316#
+= avdd DAC4_0/DAC3_0/sw_0/XM5/B
+= avdd DAC4_0/DAC3_0/sw_0/XM8/B
+= avdd DAC4_0/DAC3_0/li_4180_1834#
+= avdd DAC4_0/DAC3_0/DAC2_1/avdd
+= avdd DAC4_0/DAC3_0/DAC2_0/avdd
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_1/avdd
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_1/XM2/D
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_1/XM2/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_1/XM4/D
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_1/XM4/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_1/li_1372_n316#
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_1/XM5/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_2/avdd
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_2/XM2/D
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_2/XM2/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_2/XM4/D
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_2/XM4/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_2/li_1372_n316#
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_2/XM5/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_0/avdd
+= avdd DAC4_0/DAC3_0/DAC2_0/m1_n368_1194#
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_0/XM2/D
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_0/XM2/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_0/XM4/D
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_0/XM4/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_0/li_1372_n316#
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_0/XM5/B
+= avdd DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/B
+= avdd DAC4_0/DAC3_0/m1_21_n624#
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_1/avdd
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_1/XM2/D
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_1/XM2/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_1/XM4/D
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_1/XM4/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_1/li_1372_n316#
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_1/XM5/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_2/avdd
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_2/XM2/D
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_2/XM2/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_2/XM4/D
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_2/XM4/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_2/li_1372_n316#
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_2/XM5/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_0/avdd
+= avdd DAC4_0/DAC3_0/DAC2_1/m1_n368_1194#
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_0/XM2/D
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_0/XM2/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_0/XM4/D
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_0/XM4/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_0/li_1372_n316#
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_0/XM5/B
+= avdd DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/B
+= avdd DAC4_0/sw_0/XM2/D
+= avdd DAC4_0/sw_0/XM2/B
+= avdd DAC4_0/sw_0/XM4/D
+= avdd DAC4_0/sw_0/XM4/B
+= avdd DAC4_0/sw_0/li_1372_n316#
+= avdd DAC4_0/sw_0/XM5/B
+= avdd DAC4_0/sw_0/XM8/B
+= avdd DAC4_0/DAC3_1/avdd
+= avdd DAC4_0/m1_n150_n622#
+= avdd DAC4_0/li_1837_n914#
+= avdd DAC4_0/DAC3_1/sw_0/avdd
+= avdd DAC4_0/DAC3_1/sw_0/XM2/D
+= avdd DAC4_0/DAC3_1/sw_0/XM2/B
+= avdd DAC4_0/DAC3_1/sw_0/XM4/D
+= avdd DAC4_0/DAC3_1/sw_0/XM4/B
+= avdd DAC4_0/DAC3_1/sw_0/li_1372_n316#
+= avdd DAC4_0/DAC3_1/sw_0/XM5/B
+= avdd DAC4_0/DAC3_1/sw_0/XM8/B
+= avdd DAC4_0/DAC3_1/li_4180_1834#
+= avdd DAC4_0/DAC3_1/DAC2_1/avdd
+= avdd DAC4_0/DAC3_1/DAC2_0/avdd
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_1/avdd
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_1/XM2/D
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_1/XM2/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_1/XM4/D
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_1/XM4/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_1/li_1372_n316#
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_1/XM5/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_2/avdd
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_2/XM2/D
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_2/XM2/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_2/XM4/D
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_2/XM4/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_2/li_1372_n316#
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_2/XM5/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_0/avdd
+= avdd DAC4_0/DAC3_1/DAC2_0/m1_n368_1194#
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_0/XM2/D
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_0/XM2/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_0/XM4/D
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_0/XM4/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_0/li_1372_n316#
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_0/XM5/B
+= avdd DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/B
+= avdd DAC4_0/DAC3_1/m1_21_n624#
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_1/avdd
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_1/XM2/D
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_1/XM2/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_1/XM4/D
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_1/XM4/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_1/li_1372_n316#
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_1/XM5/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_2/avdd
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_2/XM2/D
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_2/XM2/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_2/XM4/D
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_2/XM4/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_2/li_1372_n316#
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_2/XM5/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_0/avdd
+= avdd DAC4_0/DAC3_1/DAC2_1/m1_n368_1194#
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_0/XM2/D
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_0/XM2/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_0/XM4/D
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_0/XM4/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_0/li_1372_n316#
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_0/XM5/B
+= avdd DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/B
+= avdd sw_0/avdd
+= avdd sw_0/XM2/D
+= avdd sw_0/XM2/B
+= avdd sw_0/XM4/D
+= avdd sw_0/XM4/B
+= avdd sw_0/li_1372_n316#
+= avdd sw_0/XM5/B
+= avdd sw_0/XM8/B
+= avdd DAC4_1/avdd
+= avdd m1_4745_7610#
+= avdd li_5091_6674#
+= avdd DAC4_1/sw_0/avdd
+= avdd DAC4_1/DAC3_0/avdd
+= avdd DAC4_1/DAC3_0/sw_0/avdd
+= avdd DAC4_1/DAC3_0/sw_0/XM2/D
+= avdd DAC4_1/DAC3_0/sw_0/XM2/B
+= avdd DAC4_1/DAC3_0/sw_0/XM4/D
+= avdd DAC4_1/DAC3_0/sw_0/XM4/B
+= avdd DAC4_1/DAC3_0/sw_0/li_1372_n316#
+= avdd DAC4_1/DAC3_0/sw_0/XM5/B
+= avdd DAC4_1/DAC3_0/sw_0/XM8/B
+= avdd DAC4_1/DAC3_0/li_4180_1834#
+= avdd DAC4_1/DAC3_0/DAC2_1/avdd
+= avdd DAC4_1/DAC3_0/DAC2_0/avdd
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_1/avdd
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_1/XM2/D
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_1/XM2/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_1/XM4/D
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_1/XM4/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_1/li_1372_n316#
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_1/XM5/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_2/avdd
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_2/XM2/D
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_2/XM2/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_2/XM4/D
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_2/XM4/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_2/li_1372_n316#
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_2/XM5/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_0/avdd
+= avdd DAC4_1/DAC3_0/DAC2_0/m1_n368_1194#
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_0/XM2/D
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_0/XM2/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_0/XM4/D
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_0/XM4/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_0/li_1372_n316#
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_0/XM5/B
+= avdd DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/B
+= avdd DAC4_1/DAC3_0/m1_21_n624#
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_1/avdd
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_1/XM2/D
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_1/XM2/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_1/XM4/D
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_1/XM4/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_1/li_1372_n316#
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_1/XM5/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_2/avdd
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_2/XM2/D
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_2/XM2/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_2/XM4/D
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_2/XM4/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_2/li_1372_n316#
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_2/XM5/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_0/avdd
+= avdd DAC4_1/DAC3_0/DAC2_1/m1_n368_1194#
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_0/XM2/D
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_0/XM2/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_0/XM4/D
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_0/XM4/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_0/li_1372_n316#
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_0/XM5/B
+= avdd DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/B
+= avdd DAC4_1/sw_0/XM2/D
+= avdd DAC4_1/sw_0/XM2/B
+= avdd DAC4_1/sw_0/XM4/D
+= avdd DAC4_1/sw_0/XM4/B
+= avdd DAC4_1/sw_0/li_1372_n316#
+= avdd DAC4_1/sw_0/XM5/B
+= avdd DAC4_1/sw_0/XM8/B
+= avdd DAC4_1/DAC3_1/avdd
+= avdd DAC4_1/m1_n150_n622#
+= avdd DAC4_1/li_1837_n914#
+= avdd DAC4_1/DAC3_1/sw_0/avdd
+= avdd DAC4_1/DAC3_1/sw_0/XM2/D
+= avdd DAC4_1/DAC3_1/sw_0/XM2/B
+= avdd DAC4_1/DAC3_1/sw_0/XM4/D
+= avdd DAC4_1/DAC3_1/sw_0/XM4/B
+= avdd DAC4_1/DAC3_1/sw_0/li_1372_n316#
+= avdd DAC4_1/DAC3_1/sw_0/XM5/B
+= avdd DAC4_1/DAC3_1/sw_0/XM8/B
+= avdd DAC4_1/DAC3_1/li_4180_1834#
+= avdd DAC4_1/DAC3_1/DAC2_1/avdd
+= avdd DAC4_1/DAC3_1/DAC2_0/avdd
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_1/avdd
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_1/XM2/D
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_1/XM2/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_1/XM4/D
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_1/XM4/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_1/li_1372_n316#
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_1/XM5/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_2/avdd
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_2/XM2/D
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_2/XM2/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_2/XM4/D
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_2/XM4/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_2/li_1372_n316#
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_2/XM5/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_0/avdd
+= avdd DAC4_1/DAC3_1/DAC2_0/m1_n368_1194#
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_0/XM2/D
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_0/XM2/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_0/XM4/D
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_0/XM4/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_0/li_1372_n316#
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_0/XM5/B
+= avdd DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/B
+= avdd DAC4_1/DAC3_1/m1_21_n624#
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_1/avdd
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_1/XM2/D
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_1/XM2/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_1/XM4/D
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_1/XM4/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_1/li_1372_n316#
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_1/XM5/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_2/avdd
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_2/XM2/D
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_2/XM2/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_2/XM4/D
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_2/XM4/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_2/li_1372_n316#
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_2/XM5/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_0/avdd
+= avdd DAC4_1/DAC3_1/DAC2_1/m1_n368_1194#
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_0/XM2/D
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_0/XM2/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_0/XM4/D
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_0/XM4/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_0/li_1372_n316#
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_0/XM5/B
+= avdd DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/B
+R DAC4_1/DAC3_1/DAC2_1/sw_0/vin1 615
+= DAC4_1/DAC3_1/DAC2_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_0
+= DAC4_1/DAC3_1/DAC2_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_1
+= DAC4_1/DAC3_1/DAC2_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_1/li_n388_508#
+= DAC4_1/DAC3_1/DAC2_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_1/sw_0/XM5/D
+= DAC4_1/DAC3_1/DAC2_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_1/sw_0/XM7/S
+R DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G 3203
+= DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_0/XM1/S
+= DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_0/XM2/S
+= DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_0/XM3/G
+= DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_0/XM4/G
+= DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_0/XM5/G
+= DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_0/m1_1247_n301#
+R DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740# 13
+R DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830# 13
+R DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80# 13
+R DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990# 13
+C DAC4_1/DAC3_1/sw_0/vin20 3.4
+R DAC4_1/DAC3_1/sw_0/vin2 3842
+= DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/sw_0/XM6/D
+= DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/sw_0/XM8/S
+= DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/DAC2_1/vout
+= DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/m1_2893_n1058#
+= DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/DAC2_1/sw_2/vout
+= DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/DAC2_1/sw_2/XM5/S
+= DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/S
+= DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/DAC2_1/sw_2/XM7/D
+= DAC4_1/DAC3_1/sw_0/vin2 DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/D
+R DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/G 1885
+= DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_2/XM3/S
+= DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_2/XM4/S
+= DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_2/XM7/G
+= DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_2/m1_1562_n295#
+R DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G 3203
+= DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_2/XM1/S
+= DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_2/XM2/S
+= DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_2/XM3/G
+= DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_2/XM4/G
+= DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_2/XM5/G
+= DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_2/m1_1247_n301#
+R DAC4_1/DAC3_1/DAC2_1/sw_1/vin2 694
+= DAC4_1/DAC3_1/DAC2_1/sw_1/vin2 DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_1
+= DAC4_1/DAC3_1/DAC2_1/sw_1/vin2 DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_2
+= DAC4_1/DAC3_1/DAC2_1/sw_1/vin2 DAC4_1/DAC3_1/DAC2_1/li_n396_1418#
+= DAC4_1/DAC3_1/DAC2_1/sw_1/vin2 DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/D
+= DAC4_1/DAC3_1/DAC2_1/sw_1/vin2 DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/S
+R DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 3842
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/DAC2_1/m1_1763_1855#
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/DAC2_1/sw_2/XM5/D
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/DAC2_1/sw_2/XM7/S
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/DAC2_1/sw_1/vout
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/DAC2_1/sw_1/XM5/S
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/S
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/DAC2_1/sw_1/XM7/D
+= DAC4_1/DAC3_1/DAC2_1/sw_2/vin1 DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/D
+R DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/G 1885
+= DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_1/XM3/S
+= DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_1/XM4/S
+= DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_1/XM7/G
+= DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_1/sw_1/m1_1562_n295#
+R DAC4_1/DAC3_1/DAC2_1/sw_1/vin1 605
+= DAC4_1/DAC3_1/DAC2_1/sw_1/vin1 DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_2
+= DAC4_1/DAC3_1/DAC2_1/sw_1/vin1 DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_3
+= DAC4_1/DAC3_1/DAC2_1/sw_1/vin1 DAC4_1/DAC3_1/DAC2_1/li_n386_2303#
+= DAC4_1/DAC3_1/DAC2_1/sw_1/vin1 DAC4_1/DAC3_1/DAC2_1/sw_1/XM5/D
+= DAC4_1/DAC3_1/DAC2_1/sw_1/vin1 DAC4_1/DAC3_1/DAC2_1/sw_1/XM7/S
+R DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G 3203
+= DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_1/XM1/S
+= DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_1/XM2/S
+= DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_1/XM3/G
+= DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_1/XM4/G
+= DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_1/XM5/G
+= DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_1/sw_1/m1_1247_n301#
+R DAC4_1/DAC3_1/DAC2_1/vrefh 617
+= DAC4_1/DAC3_1/DAC2_1/vrefh DAC4_1/DAC3_1/li_11_n63#
+= DAC4_1/DAC3_1/DAC2_1/vrefh DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_3
+= DAC4_1/DAC3_1/DAC2_1/vrefh DAC4_1/DAC3_1/DAC2_0/vrefl
+= DAC4_1/DAC3_1/DAC2_1/vrefh DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_0
+= DAC4_1/DAC3_1/DAC2_1/vrefh DAC4_1/DAC3_1/DAC2_0/sw_0/vin2
+= DAC4_1/DAC3_1/DAC2_1/vrefh DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/D
+= DAC4_1/DAC3_1/DAC2_1/vrefh DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/S
+R DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 3845
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/DAC2_0/m1_1750_442#
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/D
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/S
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/DAC2_0/sw_0/vout
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/DAC2_0/sw_0/XM5/S
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/S
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/DAC2_0/sw_0/XM7/D
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin2 DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/D
+R DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/G 1885
+= DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_0/XM3/S
+= DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_0/XM4/S
+= DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_0/XM7/G
+= DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_0/m1_1562_n295#
+R DAC4_1/DAC3_1/DAC2_0/sw_0/vin1 615
+= DAC4_1/DAC3_1/DAC2_0/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_0
+= DAC4_1/DAC3_1/DAC2_0/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_1
+= DAC4_1/DAC3_1/DAC2_0/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/li_n388_508#
+= DAC4_1/DAC3_1/DAC2_0/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sw_0/XM5/D
+= DAC4_1/DAC3_1/DAC2_0/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sw_0/XM7/S
+R DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G 3203
+= DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_0/XM1/S
+= DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_0/XM2/S
+= DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_0/XM3/G
+= DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_0/XM4/G
+= DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_0/XM5/G
+= DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_0/m1_1247_n301#
+R DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740# 13
+R DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830# 13
+R DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80# 13
+R DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990# 13
+R DAC4_1/DAC3_1/sw_0/vin1 3843
+= DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/m1_2917_788#
+= DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/sw_0/XM5/D
+= DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/sw_0/XM7/S
+= DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/vout
+= DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/vout
+= DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/XM5/S
+= DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/S
+= DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/XM7/D
+= DAC4_1/DAC3_1/sw_0/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/D
+R DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/G 1885
+= DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_2/XM3/S
+= DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_2/XM4/S
+= DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_2/XM7/G
+= DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_2/m1_1562_n295#
+R DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G 3203
+= DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_2/XM1/S
+= DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_2/XM2/S
+= DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_2/XM3/G
+= DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_2/XM4/G
+= DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_2/XM5/G
+= DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_2/m1_1247_n301#
+R DAC4_1/DAC3_1/DAC2_0/sw_1/vin2 694
+= DAC4_1/DAC3_1/DAC2_0/sw_1/vin2 DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_1
+= DAC4_1/DAC3_1/DAC2_0/sw_1/vin2 DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_2
+= DAC4_1/DAC3_1/DAC2_0/sw_1/vin2 DAC4_1/DAC3_1/DAC2_0/li_n396_1418#
+= DAC4_1/DAC3_1/DAC2_0/sw_1/vin2 DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/D
+= DAC4_1/DAC3_1/DAC2_0/sw_1/vin2 DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/S
+R DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 3842
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/DAC2_0/m1_1763_1855#
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/XM5/D
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/DAC2_0/sw_2/XM7/S
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/DAC2_0/sw_1/vout
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/DAC2_0/sw_1/XM5/S
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/S
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/DAC2_0/sw_1/XM7/D
+= DAC4_1/DAC3_1/DAC2_0/sw_2/vin1 DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/D
+R DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/G 1885
+= DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_1/XM3/S
+= DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_1/XM4/S
+= DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_1/XM7/G
+= DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_1/DAC2_0/sw_1/m1_1562_n295#
+R DAC4_1/DAC3_1/DAC2_0/sw_1/vin1 605
+= DAC4_1/DAC3_1/DAC2_0/sw_1/vin1 DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_2
+= DAC4_1/DAC3_1/DAC2_0/sw_1/vin1 DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_3
+= DAC4_1/DAC3_1/DAC2_0/sw_1/vin1 DAC4_1/DAC3_1/DAC2_0/li_n386_2303#
+= DAC4_1/DAC3_1/DAC2_0/sw_1/vin1 DAC4_1/DAC3_1/DAC2_0/sw_1/XM5/D
+= DAC4_1/DAC3_1/DAC2_0/sw_1/vin1 DAC4_1/DAC3_1/DAC2_0/sw_1/XM7/S
+R DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G 3203
+= DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_1/XM1/S
+= DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_1/XM2/S
+= DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_1/XM3/G
+= DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_1/XM4/G
+= DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_1/XM5/G
+= DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_1/DAC2_0/sw_1/m1_1247_n301#
+C DAC4_1/sw_0/vin10 3.0
+R DAC4_1/sw_0/vin1 3844
+= DAC4_1/sw_0/vin1 DAC4_1/m1_2623_51#
+= DAC4_1/sw_0/vin1 DAC4_1/sw_0/XM5/D
+= DAC4_1/sw_0/vin1 DAC4_1/sw_0/XM7/S
+= DAC4_1/sw_0/vin1 DAC4_1/DAC3_0/vout
+= DAC4_1/sw_0/vin1 DAC4_1/DAC3_0/sw_0/vout
+= DAC4_1/sw_0/vin1 DAC4_1/DAC3_0/sw_0/XM5/S
+= DAC4_1/sw_0/vin1 DAC4_1/DAC3_0/sw_0/XM6/S
+= DAC4_1/sw_0/vin1 DAC4_1/DAC3_0/sw_0/XM7/D
+= DAC4_1/sw_0/vin1 DAC4_1/DAC3_0/sw_0/XM8/D
+R DAC4_1/DAC3_0/sw_0/XM8/G 1885
+= DAC4_1/DAC3_0/sw_0/XM8/G DAC4_1/DAC3_0/sw_0/XM3/S
+= DAC4_1/DAC3_0/sw_0/XM8/G DAC4_1/DAC3_0/sw_0/XM4/S
+= DAC4_1/DAC3_0/sw_0/XM8/G DAC4_1/DAC3_0/sw_0/XM7/G
+= DAC4_1/DAC3_0/sw_0/XM8/G DAC4_1/DAC3_0/sw_0/m1_1562_n295#
+R DAC4_1/DAC3_0/sw_0/XM6/G 3203
+= DAC4_1/DAC3_0/sw_0/XM6/G DAC4_1/DAC3_0/sw_0/XM1/S
+= DAC4_1/DAC3_0/sw_0/XM6/G DAC4_1/DAC3_0/sw_0/XM2/S
+= DAC4_1/DAC3_0/sw_0/XM6/G DAC4_1/DAC3_0/sw_0/XM3/G
+= DAC4_1/DAC3_0/sw_0/XM6/G DAC4_1/DAC3_0/sw_0/XM4/G
+= DAC4_1/DAC3_0/sw_0/XM6/G DAC4_1/DAC3_0/sw_0/XM5/G
+= DAC4_1/DAC3_0/sw_0/XM6/G DAC4_1/DAC3_0/sw_0/m1_1247_n301#
+R DAC4_1/DAC3_1/vrefh 621
+= DAC4_1/DAC3_1/vrefh DAC4_1/DAC3_1/DAC2_0/vrefh
+= DAC4_1/DAC3_1/vrefh DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_3
+= DAC4_1/DAC3_1/vrefh DAC4_1/DAC3_0/vrefl
+= DAC4_1/DAC3_1/vrefh DAC4_1/DAC3_0/DAC2_1/vrefl
+= DAC4_1/DAC3_1/vrefh DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_0
+= DAC4_1/DAC3_1/vrefh DAC4_1/DAC3_0/DAC2_1/sw_0/vin2
+= DAC4_1/DAC3_1/vrefh DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/D
+= DAC4_1/DAC3_1/vrefh DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/S
+R DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 3845
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_0/DAC2_1/m1_1750_442#
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/D
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/S
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_0/DAC2_1/sw_0/vout
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_0/DAC2_1/sw_0/XM5/S
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/S
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_0/DAC2_1/sw_0/XM7/D
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin2 DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/D
+R DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/G 1885
+= DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_0/XM3/S
+= DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_0/XM4/S
+= DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_0/XM7/G
+= DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_0/m1_1562_n295#
+R DAC4_1/DAC3_0/DAC2_1/sw_0/vin1 615
+= DAC4_1/DAC3_0/DAC2_1/sw_0/vin1 DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_0
+= DAC4_1/DAC3_0/DAC2_1/sw_0/vin1 DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_1
+= DAC4_1/DAC3_0/DAC2_1/sw_0/vin1 DAC4_1/DAC3_0/DAC2_1/li_n388_508#
+= DAC4_1/DAC3_0/DAC2_1/sw_0/vin1 DAC4_1/DAC3_0/DAC2_1/sw_0/XM5/D
+= DAC4_1/DAC3_0/DAC2_1/sw_0/vin1 DAC4_1/DAC3_0/DAC2_1/sw_0/XM7/S
+R DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G 3203
+= DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_0/XM1/S
+= DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_0/XM2/S
+= DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_0/XM3/G
+= DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_0/XM4/G
+= DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_0/XM5/G
+= DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_0/m1_1247_n301#
+R DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740# 13
+R DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830# 13
+R DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80# 13
+R DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990# 13
+C DAC4_1/DAC3_0/sw_0/vin20 3.4
+R DAC4_1/DAC3_0/sw_0/vin2 3842
+= DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/sw_0/XM6/D
+= DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/sw_0/XM8/S
+= DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/DAC2_1/vout
+= DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/m1_2893_n1058#
+= DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/DAC2_1/sw_2/vout
+= DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/DAC2_1/sw_2/XM5/S
+= DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/S
+= DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/DAC2_1/sw_2/XM7/D
+= DAC4_1/DAC3_0/sw_0/vin2 DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/D
+R DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/G 1885
+= DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_2/XM3/S
+= DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_2/XM4/S
+= DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_2/XM7/G
+= DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_2/m1_1562_n295#
+R DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G 3203
+= DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_2/XM1/S
+= DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_2/XM2/S
+= DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_2/XM3/G
+= DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_2/XM4/G
+= DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_2/XM5/G
+= DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_2/m1_1247_n301#
+R DAC4_1/DAC3_0/DAC2_1/sw_1/vin2 694
+= DAC4_1/DAC3_0/DAC2_1/sw_1/vin2 DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_1
+= DAC4_1/DAC3_0/DAC2_1/sw_1/vin2 DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_2
+= DAC4_1/DAC3_0/DAC2_1/sw_1/vin2 DAC4_1/DAC3_0/DAC2_1/li_n396_1418#
+= DAC4_1/DAC3_0/DAC2_1/sw_1/vin2 DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/D
+= DAC4_1/DAC3_0/DAC2_1/sw_1/vin2 DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/S
+R DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 3842
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/DAC2_1/m1_1763_1855#
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/DAC2_1/sw_2/XM5/D
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/DAC2_1/sw_2/XM7/S
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/DAC2_1/sw_1/vout
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/DAC2_1/sw_1/XM5/S
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/S
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/DAC2_1/sw_1/XM7/D
+= DAC4_1/DAC3_0/DAC2_1/sw_2/vin1 DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/D
+R DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/G 1885
+= DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_1/XM3/S
+= DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_1/XM4/S
+= DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_1/XM7/G
+= DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_1/sw_1/m1_1562_n295#
+R DAC4_1/DAC3_0/DAC2_1/sw_1/vin1 605
+= DAC4_1/DAC3_0/DAC2_1/sw_1/vin1 DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_2
+= DAC4_1/DAC3_0/DAC2_1/sw_1/vin1 DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_3
+= DAC4_1/DAC3_0/DAC2_1/sw_1/vin1 DAC4_1/DAC3_0/DAC2_1/li_n386_2303#
+= DAC4_1/DAC3_0/DAC2_1/sw_1/vin1 DAC4_1/DAC3_0/DAC2_1/sw_1/XM5/D
+= DAC4_1/DAC3_0/DAC2_1/sw_1/vin1 DAC4_1/DAC3_0/DAC2_1/sw_1/XM7/S
+R DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G 3203
+= DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_1/XM1/S
+= DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_1/XM2/S
+= DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_1/XM3/G
+= DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_1/XM4/G
+= DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_1/XM5/G
+= DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_1/sw_1/m1_1247_n301#
+R DAC4_1/DAC3_0/DAC2_1/vrefh 617
+= DAC4_1/DAC3_0/DAC2_1/vrefh DAC4_1/DAC3_0/li_11_n63#
+= DAC4_1/DAC3_0/DAC2_1/vrefh DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_3
+= DAC4_1/DAC3_0/DAC2_1/vrefh DAC4_1/DAC3_0/DAC2_0/vrefl
+= DAC4_1/DAC3_0/DAC2_1/vrefh DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_0
+= DAC4_1/DAC3_0/DAC2_1/vrefh DAC4_1/DAC3_0/DAC2_0/sw_0/vin2
+= DAC4_1/DAC3_0/DAC2_1/vrefh DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/D
+= DAC4_1/DAC3_0/DAC2_1/vrefh DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/S
+R DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 3845
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/DAC2_0/m1_1750_442#
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/D
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/S
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/DAC2_0/sw_0/vout
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/DAC2_0/sw_0/XM5/S
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/S
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/DAC2_0/sw_0/XM7/D
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin2 DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/D
+R DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/G 1885
+= DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_0/XM3/S
+= DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_0/XM4/S
+= DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_0/XM7/G
+= DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_0/m1_1562_n295#
+R DAC4_1/DAC3_0/DAC2_0/sw_0/vin1 615
+= DAC4_1/DAC3_0/DAC2_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_0
+= DAC4_1/DAC3_0/DAC2_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_1
+= DAC4_1/DAC3_0/DAC2_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/li_n388_508#
+= DAC4_1/DAC3_0/DAC2_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sw_0/XM5/D
+= DAC4_1/DAC3_0/DAC2_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sw_0/XM7/S
+R DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G 3203
+= DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_0/XM1/S
+= DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_0/XM2/S
+= DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_0/XM3/G
+= DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_0/XM4/G
+= DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_0/XM5/G
+= DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_0/m1_1247_n301#
+R DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740# 13
+R DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830# 13
+R DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80# 13
+R DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990# 13
+R DAC4_1/DAC3_0/sw_0/vin1 3843
+= DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/m1_2917_788#
+= DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/sw_0/XM5/D
+= DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/sw_0/XM7/S
+= DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/vout
+= DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/vout
+= DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/XM5/S
+= DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/S
+= DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/XM7/D
+= DAC4_1/DAC3_0/sw_0/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/D
+R DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/G 1885
+= DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_2/XM3/S
+= DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_2/XM4/S
+= DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_2/XM7/G
+= DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_2/m1_1562_n295#
+R DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G 3203
+= DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_2/XM1/S
+= DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_2/XM2/S
+= DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_2/XM3/G
+= DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_2/XM4/G
+= DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_2/XM5/G
+= DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_2/m1_1247_n301#
+R DAC4_1/DAC3_0/DAC2_0/sw_1/vin2 694
+= DAC4_1/DAC3_0/DAC2_0/sw_1/vin2 DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_1
+= DAC4_1/DAC3_0/DAC2_0/sw_1/vin2 DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_2
+= DAC4_1/DAC3_0/DAC2_0/sw_1/vin2 DAC4_1/DAC3_0/DAC2_0/li_n396_1418#
+= DAC4_1/DAC3_0/DAC2_0/sw_1/vin2 DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/D
+= DAC4_1/DAC3_0/DAC2_0/sw_1/vin2 DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/S
+R DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 3842
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/DAC2_0/m1_1763_1855#
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/XM5/D
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/DAC2_0/sw_2/XM7/S
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/DAC2_0/sw_1/vout
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/DAC2_0/sw_1/XM5/S
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/S
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/DAC2_0/sw_1/XM7/D
+= DAC4_1/DAC3_0/DAC2_0/sw_2/vin1 DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/D
+R DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/G 1885
+= DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_1/XM3/S
+= DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_1/XM4/S
+= DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_1/XM7/G
+= DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_1/DAC3_0/DAC2_0/sw_1/m1_1562_n295#
+R DAC4_1/DAC3_0/DAC2_0/sw_1/vin1 605
+= DAC4_1/DAC3_0/DAC2_0/sw_1/vin1 DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_2
+= DAC4_1/DAC3_0/DAC2_0/sw_1/vin1 DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_3
+= DAC4_1/DAC3_0/DAC2_0/sw_1/vin1 DAC4_1/DAC3_0/DAC2_0/li_n386_2303#
+= DAC4_1/DAC3_0/DAC2_0/sw_1/vin1 DAC4_1/DAC3_0/DAC2_0/sw_1/XM5/D
+= DAC4_1/DAC3_0/DAC2_0/sw_1/vin1 DAC4_1/DAC3_0/DAC2_0/sw_1/XM7/S
+R DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G 3203
+= DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_1/XM1/S
+= DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_1/XM2/S
+= DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_1/XM3/G
+= DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_1/XM4/G
+= DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_1/XM5/G
+= DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_1/DAC3_0/DAC2_0/sw_1/m1_1247_n301#
+R sw_0/vin1 3840
+= sw_0/vin1 sw_0/XM5/D
+= sw_0/vin1 sw_0/XM7/S
+= sw_0/vin1 DAC4_0/vout
+= sw_0/vin1 m1_4701_6821#
+= sw_0/vin1 DAC4_0/sw_0/vout
+= sw_0/vin1 DAC4_0/sw_0/XM5/S
+= sw_0/vin1 DAC4_0/sw_0/XM6/S
+= sw_0/vin1 DAC4_0/sw_0/XM7/D
+= sw_0/vin1 DAC4_0/sw_0/XM8/D
+R DAC4_0/sw_0/XM8/G 1885
+= DAC4_0/sw_0/XM8/G DAC4_0/sw_0/XM3/S
+= DAC4_0/sw_0/XM8/G DAC4_0/sw_0/XM4/S
+= DAC4_0/sw_0/XM8/G DAC4_0/sw_0/XM7/G
+= DAC4_0/sw_0/XM8/G DAC4_0/sw_0/m1_1562_n295#
+R DAC4_0/sw_0/XM6/G 3203
+= DAC4_0/sw_0/XM6/G DAC4_0/sw_0/XM1/S
+= DAC4_0/sw_0/XM6/G DAC4_0/sw_0/XM2/S
+= DAC4_0/sw_0/XM6/G DAC4_0/sw_0/XM3/G
+= DAC4_0/sw_0/XM6/G DAC4_0/sw_0/XM4/G
+= DAC4_0/sw_0/XM6/G DAC4_0/sw_0/XM5/G
+= DAC4_0/sw_0/XM6/G DAC4_0/sw_0/m1_1247_n301#
+C b30 5.0
+R b3 2516
+= b3 DAC4_1/b3
+= b3 DAC4_1/sw_0/b_in
+= b3 DAC4_1/sw_0/XM1/G
+= b3 DAC4_1/sw_0/XM2/G
+= b3 DAC4_0/b3
+= b3 DAC4_0/sw_0/b_in
+= b3 DAC4_0/sw_0/XM1/G
+= b3 DAC4_0/sw_0/XM2/G
+C DAC4_0/sw_0/vin20 3.5
+R DAC4_0/sw_0/vin2 3848
+= DAC4_0/sw_0/vin2 DAC4_0/sw_0/XM6/D
+= DAC4_0/sw_0/vin2 DAC4_0/sw_0/XM8/S
+= DAC4_0/sw_0/vin2 DAC4_0/DAC3_1/vout
+= DAC4_0/sw_0/vin2 DAC4_0/m1_2627_n1105#
+= DAC4_0/sw_0/vin2 DAC4_0/DAC3_1/sw_0/vout
+= DAC4_0/sw_0/vin2 DAC4_0/DAC3_1/sw_0/XM5/S
+= DAC4_0/sw_0/vin2 DAC4_0/DAC3_1/sw_0/XM6/S
+= DAC4_0/sw_0/vin2 DAC4_0/DAC3_1/sw_0/XM7/D
+= DAC4_0/sw_0/vin2 DAC4_0/DAC3_1/sw_0/XM8/D
+R DAC4_0/DAC3_1/sw_0/XM8/G 1885
+= DAC4_0/DAC3_1/sw_0/XM8/G DAC4_0/DAC3_1/sw_0/XM3/S
+= DAC4_0/DAC3_1/sw_0/XM8/G DAC4_0/DAC3_1/sw_0/XM4/S
+= DAC4_0/DAC3_1/sw_0/XM8/G DAC4_0/DAC3_1/sw_0/XM7/G
+= DAC4_0/DAC3_1/sw_0/XM8/G DAC4_0/DAC3_1/sw_0/m1_1562_n295#
+R DAC4_0/DAC3_1/sw_0/XM6/G 3203
+= DAC4_0/DAC3_1/sw_0/XM6/G DAC4_0/DAC3_1/sw_0/XM1/S
+= DAC4_0/DAC3_1/sw_0/XM6/G DAC4_0/DAC3_1/sw_0/XM2/S
+= DAC4_0/DAC3_1/sw_0/XM6/G DAC4_0/DAC3_1/sw_0/XM3/G
+= DAC4_0/DAC3_1/sw_0/XM6/G DAC4_0/DAC3_1/sw_0/XM4/G
+= DAC4_0/DAC3_1/sw_0/XM6/G DAC4_0/DAC3_1/sw_0/XM5/G
+= DAC4_0/DAC3_1/sw_0/XM6/G DAC4_0/DAC3_1/sw_0/m1_1247_n301#
+C b20 11.7
+R b2 5168
+= b2 DAC4_1/b2
+= b2 DAC4_1/DAC3_0/b2
+= b2 DAC4_1/DAC3_0/sw_0/b_in
+= b2 DAC4_1/DAC3_0/sw_0/XM1/G
+= b2 DAC4_1/DAC3_0/sw_0/XM2/G
+= b2 DAC4_1/DAC3_1/b2
+= b2 DAC4_1/DAC3_1/sw_0/b_in
+= b2 DAC4_1/DAC3_1/sw_0/XM1/G
+= b2 DAC4_1/DAC3_1/sw_0/XM2/G
+= b2 DAC4_0/b2
+= b2 DAC4_0/DAC3_0/b2
+= b2 DAC4_0/DAC3_0/sw_0/b_in
+= b2 DAC4_0/DAC3_0/sw_0/XM1/G
+= b2 DAC4_0/DAC3_0/sw_0/XM2/G
+= b2 DAC4_0/DAC3_1/b2
+= b2 DAC4_0/DAC3_1/sw_0/b_in
+= b2 DAC4_0/DAC3_1/sw_0/XM1/G
+= b2 DAC4_0/DAC3_1/sw_0/XM2/G
+C DAC4_1/vrefh0 3.5
+R DAC4_1/vrefh 1515
+= DAC4_1/vrefh DAC4_1/DAC3_0/vrefh
+= DAC4_1/vrefh DAC4_1/DAC3_0/DAC2_0/vrefh
+= DAC4_1/vrefh DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_3
+= DAC4_1/vrefh DAC4_0/vrefl
+= DAC4_1/vrefh li_72_6#
+= DAC4_1/vrefh DAC4_0/DAC3_1/vrefl
+= DAC4_1/vrefh DAC4_0/DAC3_1/DAC2_1/vrefl
+= DAC4_1/vrefh DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_0
+= DAC4_1/vrefh DAC4_0/DAC3_1/DAC2_1/sw_0/vin2
+= DAC4_1/vrefh DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/D
+= DAC4_1/vrefh DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/S
+R DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 3845
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/DAC2_1/m1_1750_442#
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/D
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/S
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/DAC2_1/sw_0/vout
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/DAC2_1/sw_0/XM5/S
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/S
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/DAC2_1/sw_0/XM7/D
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin2 DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/D
+R DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/G 1885
+= DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_0/XM3/S
+= DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_0/XM4/S
+= DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_0/XM7/G
+= DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_0/m1_1562_n295#
+R DAC4_0/DAC3_1/DAC2_1/sw_0/vin1 615
+= DAC4_0/DAC3_1/DAC2_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_0
+= DAC4_0/DAC3_1/DAC2_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_1
+= DAC4_0/DAC3_1/DAC2_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_1/li_n388_508#
+= DAC4_0/DAC3_1/DAC2_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_1/sw_0/XM5/D
+= DAC4_0/DAC3_1/DAC2_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_1/sw_0/XM7/S
+R DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G 3203
+= DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_0/XM1/S
+= DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_0/XM2/S
+= DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_0/XM3/G
+= DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_0/XM4/G
+= DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_0/XM5/G
+= DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_0/m1_1247_n301#
+R DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740# 13
+R DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830# 13
+R DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80# 13
+R DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990# 13
+C DAC4_0/DAC3_1/sw_0/vin20 3.4
+R DAC4_0/DAC3_1/sw_0/vin2 3842
+= DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/sw_0/XM6/D
+= DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/sw_0/XM8/S
+= DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/DAC2_1/vout
+= DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/m1_2893_n1058#
+= DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/DAC2_1/sw_2/vout
+= DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/DAC2_1/sw_2/XM5/S
+= DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/S
+= DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/DAC2_1/sw_2/XM7/D
+= DAC4_0/DAC3_1/sw_0/vin2 DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/D
+R DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/G 1885
+= DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_2/XM3/S
+= DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_2/XM4/S
+= DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_2/XM7/G
+= DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_2/m1_1562_n295#
+R avss 820969
+= avss VSUBS
+= avss sw_0/avss
+= avss sw_0/XM1/D
+= avss sw_0/XM1/B
+= avss sw_0/XM2/VSUBS
+= avss sw_0/XM3/D
+= avss sw_0/XM3/B
+= avss sw_0/li_1364_n930#
+= avss sw_0/XM4/VSUBS
+= avss sw_0/XM5/VSUBS
+= avss sw_0/XM6/B
+= avss sw_0/XM7/B
+= avss sw_0/VSUBS
+= avss sw_0/XM8/VSUBS
+= avss DAC4_1/avss
+= avss DAC4_1/li_1879_n1389#
+= avss DAC4_1/DAC3_0/avss
+= avss DAC4_1/DAC3_0/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/avss
+= avss DAC4_1/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/avss
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM1/D
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM1/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM2/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM3/D
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM3/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/li_1364_n930#
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM4/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM5/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM6/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM7/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_0/XM8/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/avss
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/avss
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM1/D
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM1/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM2/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM3/D
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM3/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/li_1364_n930#
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM4/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM5/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM6/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM7/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_1/XM8/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/li_1635_1468#
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM1/D
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM1/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM2/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM3/D
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM3/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/li_1364_n930#
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM4/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM5/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM6/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM7/B
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_0/sw_2/XM8/VSUBS
+= avss DAC4_1/DAC3_0/li_1893_n330#
+= avss DAC4_1/DAC3_0/sw_0/avss
+= avss DAC4_1/DAC3_0/li_4115_n2594#
+= avss DAC4_1/DAC3_0/sw_0/XM1/D
+= avss DAC4_1/DAC3_0/sw_0/XM1/B
+= avss DAC4_1/DAC3_0/sw_0/XM2/VSUBS
+= avss DAC4_1/DAC3_0/sw_0/XM3/D
+= avss DAC4_1/DAC3_0/sw_0/XM3/B
+= avss DAC4_1/DAC3_0/sw_0/li_1364_n930#
+= avss DAC4_1/DAC3_0/sw_0/XM4/VSUBS
+= avss DAC4_1/DAC3_0/sw_0/XM5/VSUBS
+= avss DAC4_1/DAC3_0/sw_0/XM6/B
+= avss DAC4_1/DAC3_0/sw_0/XM7/B
+= avss DAC4_1/DAC3_0/sw_0/VSUBS
+= avss DAC4_1/DAC3_0/sw_0/XM8/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/avss
+= avss DAC4_1/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/avss
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM1/D
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM1/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM2/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM3/D
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM3/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/li_1364_n930#
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM4/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM5/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM6/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM7/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_0/XM8/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/avss
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/avss
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM1/D
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM1/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM2/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM3/D
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM3/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/li_1364_n930#
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM4/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM5/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM6/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM7/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_1/XM8/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/li_1635_1468#
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM1/D
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM1/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM2/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM3/D
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM3/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/li_1364_n930#
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM4/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM5/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM6/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM7/B
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/VSUBS
+= avss DAC4_1/DAC3_0/DAC2_1/sw_2/XM8/VSUBS
+= avss DAC4_1/sw_0/avss
+= avss DAC4_1/sw_0/XM1/D
+= avss DAC4_1/sw_0/XM1/B
+= avss DAC4_1/sw_0/XM2/VSUBS
+= avss DAC4_1/sw_0/XM3/D
+= avss DAC4_1/sw_0/XM3/B
+= avss DAC4_1/sw_0/li_1364_n930#
+= avss DAC4_1/sw_0/XM4/VSUBS
+= avss DAC4_1/sw_0/XM5/VSUBS
+= avss DAC4_1/sw_0/XM6/B
+= avss DAC4_1/sw_0/XM7/B
+= avss DAC4_1/sw_0/VSUBS
+= avss DAC4_1/sw_0/XM8/VSUBS
+= avss DAC4_1/VSUBS
+= avss DAC4_1/DAC3_1/avss
+= avss DAC4_1/DAC3_1/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/avss
+= avss DAC4_1/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/avss
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM1/D
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM1/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM2/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM3/D
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM3/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/li_1364_n930#
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM4/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM5/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM6/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM7/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_0/XM8/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/avss
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/avss
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM1/D
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM1/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM2/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM3/D
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM3/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/li_1364_n930#
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM4/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM5/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM6/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM7/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_1/XM8/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/li_1635_1468#
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM1/D
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM1/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM2/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM3/D
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM3/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/li_1364_n930#
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM4/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM5/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM6/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM7/B
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_0/sw_2/XM8/VSUBS
+= avss DAC4_1/DAC3_1/li_1893_n330#
+= avss DAC4_1/DAC3_1/sw_0/avss
+= avss DAC4_1/DAC3_1/li_4115_n2594#
+= avss DAC4_1/DAC3_1/sw_0/XM1/D
+= avss DAC4_1/DAC3_1/sw_0/XM1/B
+= avss DAC4_1/DAC3_1/sw_0/XM2/VSUBS
+= avss DAC4_1/DAC3_1/sw_0/XM3/D
+= avss DAC4_1/DAC3_1/sw_0/XM3/B
+= avss DAC4_1/DAC3_1/sw_0/li_1364_n930#
+= avss DAC4_1/DAC3_1/sw_0/XM4/VSUBS
+= avss DAC4_1/DAC3_1/sw_0/XM5/VSUBS
+= avss DAC4_1/DAC3_1/sw_0/XM6/B
+= avss DAC4_1/DAC3_1/sw_0/XM7/B
+= avss DAC4_1/DAC3_1/sw_0/VSUBS
+= avss DAC4_1/DAC3_1/sw_0/XM8/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/avss
+= avss DAC4_1/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/avss
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM1/D
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM1/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM2/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM3/D
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM3/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/li_1364_n930#
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM4/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM5/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM6/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM7/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_0/XM8/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/avss
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/avss
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM1/D
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM1/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM2/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM3/D
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM3/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/li_1364_n930#
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM4/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM5/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM6/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM7/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_1/XM8/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/li_1635_1468#
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM1/D
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM1/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM2/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM3/D
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM3/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/li_1364_n930#
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM4/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM5/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM6/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM7/B
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/VSUBS
+= avss DAC4_1/DAC3_1/DAC2_1/sw_2/XM8/VSUBS
+= avss DAC4_0/avss
+= avss li_6249_7884#
+= avss li_4429_9472#
+= avss li_4390_2978#
+= avss DAC4_0/li_1879_n1389#
+= avss DAC4_0/DAC3_0/avss
+= avss DAC4_0/DAC3_0/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/avss
+= avss DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/avss
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM1/D
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM1/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM2/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM3/D
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM3/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/li_1364_n930#
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM4/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM5/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM7/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/avss
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/avss
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM1/D
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM1/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM2/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM3/D
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM3/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/li_1364_n930#
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM4/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM5/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM7/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/li_1635_1468#
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM1/D
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM1/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM2/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM3/D
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM3/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/li_1364_n930#
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM4/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM5/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM7/B
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/VSUBS
+= avss DAC4_0/DAC3_0/li_1893_n330#
+= avss DAC4_0/DAC3_0/sw_0/avss
+= avss DAC4_0/DAC3_0/li_4115_n2594#
+= avss DAC4_0/DAC3_0/sw_0/XM1/D
+= avss DAC4_0/DAC3_0/sw_0/XM1/B
+= avss DAC4_0/DAC3_0/sw_0/XM2/VSUBS
+= avss DAC4_0/DAC3_0/sw_0/XM3/D
+= avss DAC4_0/DAC3_0/sw_0/XM3/B
+= avss DAC4_0/DAC3_0/sw_0/li_1364_n930#
+= avss DAC4_0/DAC3_0/sw_0/XM4/VSUBS
+= avss DAC4_0/DAC3_0/sw_0/XM5/VSUBS
+= avss DAC4_0/DAC3_0/sw_0/XM6/B
+= avss DAC4_0/DAC3_0/sw_0/XM7/B
+= avss DAC4_0/DAC3_0/sw_0/VSUBS
+= avss DAC4_0/DAC3_0/sw_0/XM8/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/avss
+= avss DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/avss
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM1/D
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM1/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM2/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM3/D
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM3/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/li_1364_n930#
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM4/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM5/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM7/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/avss
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/avss
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM1/D
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM1/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM2/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM3/D
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM3/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/li_1364_n930#
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM4/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM5/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM7/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/li_1635_1468#
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM1/D
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM1/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM2/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM3/D
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM3/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/li_1364_n930#
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM4/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM5/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM7/B
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/VSUBS
+= avss DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/VSUBS
+= avss DAC4_0/sw_0/avss
+= avss DAC4_0/sw_0/XM1/D
+= avss DAC4_0/sw_0/XM1/B
+= avss DAC4_0/sw_0/XM2/VSUBS
+= avss DAC4_0/sw_0/XM3/D
+= avss DAC4_0/sw_0/XM3/B
+= avss DAC4_0/sw_0/li_1364_n930#
+= avss DAC4_0/sw_0/XM4/VSUBS
+= avss DAC4_0/sw_0/XM5/VSUBS
+= avss DAC4_0/sw_0/XM6/B
+= avss DAC4_0/sw_0/XM7/B
+= avss DAC4_0/sw_0/VSUBS
+= avss DAC4_0/sw_0/XM8/VSUBS
+= avss DAC4_0/VSUBS
+= avss DAC4_0/DAC3_1/avss
+= avss DAC4_0/DAC3_1/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/avss
+= avss DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/avss
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM1/D
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM1/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM2/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM3/D
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM3/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/li_1364_n930#
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM4/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM5/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM7/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/avss
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/avss
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM1/D
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM1/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM2/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM3/D
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM3/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/li_1364_n930#
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM4/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM5/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM7/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/li_1635_1468#
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM1/D
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM1/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM2/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM3/D
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM3/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/li_1364_n930#
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM4/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM5/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM7/B
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/VSUBS
+= avss DAC4_0/DAC3_1/li_1893_n330#
+= avss DAC4_0/DAC3_1/sw_0/avss
+= avss DAC4_0/DAC3_1/li_4115_n2594#
+= avss DAC4_0/DAC3_1/sw_0/XM1/D
+= avss DAC4_0/DAC3_1/sw_0/XM1/B
+= avss DAC4_0/DAC3_1/sw_0/XM2/VSUBS
+= avss DAC4_0/DAC3_1/sw_0/XM3/D
+= avss DAC4_0/DAC3_1/sw_0/XM3/B
+= avss DAC4_0/DAC3_1/sw_0/li_1364_n930#
+= avss DAC4_0/DAC3_1/sw_0/XM4/VSUBS
+= avss DAC4_0/DAC3_1/sw_0/XM5/VSUBS
+= avss DAC4_0/DAC3_1/sw_0/XM6/B
+= avss DAC4_0/DAC3_1/sw_0/XM7/B
+= avss DAC4_0/DAC3_1/sw_0/VSUBS
+= avss DAC4_0/DAC3_1/sw_0/XM8/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/avss
+= avss DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/avss
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM1/D
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM1/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM2/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM3/D
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM3/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/li_1364_n930#
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM4/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM5/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM6/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM7/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_0/XM8/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/avss
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/avss
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM1/D
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM1/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM2/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM3/D
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM3/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/li_1364_n930#
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM4/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM5/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM7/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/li_1635_1468#
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM1/D
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM1/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM2/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM3/D
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM3/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/li_1364_n930#
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM4/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM5/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM7/B
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/VSUBS
+= avss DAC4_0/DAC3_1/DAC2_1/sw_2/XM8/VSUBS
+R DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G 3203
+= DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_2/XM1/S
+= DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_2/XM2/S
+= DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_2/XM3/G
+= DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_2/XM4/G
+= DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_2/XM5/G
+= DAC4_0/DAC3_1/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_2/m1_1247_n301#
+C b10 15.8
+R b1 10453
+= b1 DAC4_1/b1
+= b1 DAC4_1/DAC3_0/b1
+= b1 DAC4_1/DAC3_0/DAC2_0/b1
+= b1 DAC4_1/DAC3_0/DAC2_0/sw_2/b_in
+= b1 DAC4_1/DAC3_0/DAC2_0/sw_2/XM1/G
+= b1 DAC4_1/DAC3_0/DAC2_0/sw_2/XM2/G
+= b1 DAC4_1/DAC3_0/DAC2_1/b1
+= b1 DAC4_1/DAC3_0/DAC2_1/sw_2/b_in
+= b1 DAC4_1/DAC3_0/DAC2_1/sw_2/XM1/G
+= b1 DAC4_1/DAC3_0/DAC2_1/sw_2/XM2/G
+= b1 DAC4_1/DAC3_1/b1
+= b1 DAC4_1/DAC3_1/DAC2_0/b1
+= b1 DAC4_1/DAC3_1/DAC2_0/sw_2/b_in
+= b1 DAC4_1/DAC3_1/DAC2_0/sw_2/XM1/G
+= b1 DAC4_1/DAC3_1/DAC2_0/sw_2/XM2/G
+= b1 DAC4_1/DAC3_1/DAC2_1/b1
+= b1 DAC4_1/DAC3_1/DAC2_1/sw_2/b_in
+= b1 DAC4_1/DAC3_1/DAC2_1/sw_2/XM1/G
+= b1 DAC4_1/DAC3_1/DAC2_1/sw_2/XM2/G
+= b1 DAC4_0/b1
+= b1 DAC4_0/DAC3_0/b1
+= b1 DAC4_0/DAC3_0/DAC2_0/b1
+= b1 DAC4_0/DAC3_0/DAC2_0/sw_2/b_in
+= b1 DAC4_0/DAC3_0/DAC2_0/sw_2/XM1/G
+= b1 DAC4_0/DAC3_0/DAC2_0/sw_2/XM2/G
+= b1 DAC4_0/DAC3_0/DAC2_1/b1
+= b1 DAC4_0/DAC3_0/DAC2_1/sw_2/b_in
+= b1 DAC4_0/DAC3_0/DAC2_1/sw_2/XM1/G
+= b1 DAC4_0/DAC3_0/DAC2_1/sw_2/XM2/G
+= b1 DAC4_0/DAC3_1/b1
+= b1 DAC4_0/DAC3_1/DAC2_0/b1
+= b1 DAC4_0/DAC3_1/DAC2_0/sw_2/b_in
+= b1 DAC4_0/DAC3_1/DAC2_0/sw_2/XM1/G
+= b1 DAC4_0/DAC3_1/DAC2_0/sw_2/XM2/G
+= b1 DAC4_0/DAC3_1/DAC2_1/b1
+= b1 DAC4_0/DAC3_1/DAC2_1/sw_2/b_in
+= b1 DAC4_0/DAC3_1/DAC2_1/sw_2/XM1/G
+= b1 DAC4_0/DAC3_1/DAC2_1/sw_2/XM2/G
+R DAC4_0/DAC3_1/DAC2_1/sw_1/vin2 694
+= DAC4_0/DAC3_1/DAC2_1/sw_1/vin2 DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_1
+= DAC4_0/DAC3_1/DAC2_1/sw_1/vin2 DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_2
+= DAC4_0/DAC3_1/DAC2_1/sw_1/vin2 DAC4_0/DAC3_1/DAC2_1/li_n396_1418#
+= DAC4_0/DAC3_1/DAC2_1/sw_1/vin2 DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/D
+= DAC4_0/DAC3_1/DAC2_1/sw_1/vin2 DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/S
+R DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 3842
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/DAC2_1/m1_1763_1855#
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/DAC2_1/sw_2/XM5/D
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/DAC2_1/sw_2/XM7/S
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/DAC2_1/sw_1/vout
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/DAC2_1/sw_1/XM5/S
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/S
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/DAC2_1/sw_1/XM7/D
+= DAC4_0/DAC3_1/DAC2_1/sw_2/vin1 DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/D
+R DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/G 1885
+= DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_1/XM3/S
+= DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_1/XM4/S
+= DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_1/XM7/G
+= DAC4_0/DAC3_1/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_1/sw_1/m1_1562_n295#
+R DAC4_0/DAC3_1/DAC2_1/sw_1/vin1 605
+= DAC4_0/DAC3_1/DAC2_1/sw_1/vin1 DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_2
+= DAC4_0/DAC3_1/DAC2_1/sw_1/vin1 DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_3
+= DAC4_0/DAC3_1/DAC2_1/sw_1/vin1 DAC4_0/DAC3_1/DAC2_1/li_n386_2303#
+= DAC4_0/DAC3_1/DAC2_1/sw_1/vin1 DAC4_0/DAC3_1/DAC2_1/sw_1/XM5/D
+= DAC4_0/DAC3_1/DAC2_1/sw_1/vin1 DAC4_0/DAC3_1/DAC2_1/sw_1/XM7/S
+R DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G 3203
+= DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_1/XM1/S
+= DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_1/XM2/S
+= DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_1/XM3/G
+= DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_1/XM4/G
+= DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_1/XM5/G
+= DAC4_0/DAC3_1/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_1/sw_1/m1_1247_n301#
+C b00 22.2
+R b0 21003
+= b0 DAC4_1/b0
+= b0 DAC4_1/DAC3_0/b0
+= b0 DAC4_1/DAC3_0/DAC2_0/b0
+= b0 DAC4_1/DAC3_0/DAC2_0/sw_0/b_in
+= b0 DAC4_1/DAC3_0/DAC2_0/sw_0/XM1/G
+= b0 DAC4_1/DAC3_0/DAC2_0/sw_0/XM2/G
+= b0 DAC4_1/DAC3_0/DAC2_0/sw_1/b_in
+= b0 DAC4_1/DAC3_0/DAC2_0/sw_1/XM1/G
+= b0 DAC4_1/DAC3_0/DAC2_0/sw_1/XM2/G
+= b0 DAC4_1/DAC3_0/DAC2_1/b0
+= b0 DAC4_1/DAC3_0/DAC2_1/sw_0/b_in
+= b0 DAC4_1/DAC3_0/DAC2_1/sw_0/XM1/G
+= b0 DAC4_1/DAC3_0/DAC2_1/sw_0/XM2/G
+= b0 DAC4_1/DAC3_0/DAC2_1/sw_1/b_in
+= b0 DAC4_1/DAC3_0/DAC2_1/sw_1/XM1/G
+= b0 DAC4_1/DAC3_0/DAC2_1/sw_1/XM2/G
+= b0 DAC4_1/DAC3_1/b0
+= b0 DAC4_1/DAC3_1/DAC2_0/b0
+= b0 DAC4_1/DAC3_1/DAC2_0/sw_0/b_in
+= b0 DAC4_1/DAC3_1/DAC2_0/sw_0/XM1/G
+= b0 DAC4_1/DAC3_1/DAC2_0/sw_0/XM2/G
+= b0 DAC4_1/DAC3_1/DAC2_0/sw_1/b_in
+= b0 DAC4_1/DAC3_1/DAC2_0/sw_1/XM1/G
+= b0 DAC4_1/DAC3_1/DAC2_0/sw_1/XM2/G
+= b0 DAC4_1/DAC3_1/DAC2_1/b0
+= b0 DAC4_1/DAC3_1/DAC2_1/sw_0/b_in
+= b0 DAC4_1/DAC3_1/DAC2_1/sw_0/XM1/G
+= b0 DAC4_1/DAC3_1/DAC2_1/sw_0/XM2/G
+= b0 DAC4_1/DAC3_1/DAC2_1/sw_1/b_in
+= b0 DAC4_1/DAC3_1/DAC2_1/sw_1/XM1/G
+= b0 DAC4_1/DAC3_1/DAC2_1/sw_1/XM2/G
+= b0 DAC4_0/b0
+= b0 DAC4_0/DAC3_0/b0
+= b0 DAC4_0/DAC3_0/DAC2_0/b0
+= b0 DAC4_0/DAC3_0/DAC2_0/sw_0/b_in
+= b0 DAC4_0/DAC3_0/DAC2_0/sw_0/XM1/G
+= b0 DAC4_0/DAC3_0/DAC2_0/sw_0/XM2/G
+= b0 DAC4_0/DAC3_0/DAC2_0/sw_1/b_in
+= b0 DAC4_0/DAC3_0/DAC2_0/sw_1/XM1/G
+= b0 DAC4_0/DAC3_0/DAC2_0/sw_1/XM2/G
+= b0 DAC4_0/DAC3_0/DAC2_1/b0
+= b0 DAC4_0/DAC3_0/DAC2_1/sw_0/b_in
+= b0 DAC4_0/DAC3_0/DAC2_1/sw_0/XM1/G
+= b0 DAC4_0/DAC3_0/DAC2_1/sw_0/XM2/G
+= b0 DAC4_0/DAC3_0/DAC2_1/sw_1/b_in
+= b0 DAC4_0/DAC3_0/DAC2_1/sw_1/XM1/G
+= b0 DAC4_0/DAC3_0/DAC2_1/sw_1/XM2/G
+= b0 DAC4_0/DAC3_1/b0
+= b0 DAC4_0/DAC3_1/DAC2_0/b0
+= b0 DAC4_0/DAC3_1/DAC2_0/sw_0/b_in
+= b0 DAC4_0/DAC3_1/DAC2_0/sw_0/XM1/G
+= b0 DAC4_0/DAC3_1/DAC2_0/sw_0/XM2/G
+= b0 DAC4_0/DAC3_1/DAC2_0/sw_1/b_in
+= b0 DAC4_0/DAC3_1/DAC2_0/sw_1/XM1/G
+= b0 DAC4_0/DAC3_1/DAC2_0/sw_1/XM2/G
+= b0 DAC4_0/DAC3_1/DAC2_1/b0
+= b0 DAC4_0/DAC3_1/DAC2_1/sw_0/b_in
+= b0 DAC4_0/DAC3_1/DAC2_1/sw_0/XM1/G
+= b0 DAC4_0/DAC3_1/DAC2_1/sw_0/XM2/G
+= b0 DAC4_0/DAC3_1/DAC2_1/sw_1/b_in
+= b0 DAC4_0/DAC3_1/DAC2_1/sw_1/XM1/G
+= b0 DAC4_0/DAC3_1/DAC2_1/sw_1/XM2/G
+R DAC4_0/DAC3_1/DAC2_1/vrefh 617
+= DAC4_0/DAC3_1/DAC2_1/vrefh DAC4_0/DAC3_1/li_11_n63#
+= DAC4_0/DAC3_1/DAC2_1/vrefh DAC4_0/DAC3_1/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_3
+= DAC4_0/DAC3_1/DAC2_1/vrefh DAC4_0/DAC3_1/DAC2_0/vrefl
+= DAC4_0/DAC3_1/DAC2_1/vrefh DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_0
+= DAC4_0/DAC3_1/DAC2_1/vrefh DAC4_0/DAC3_1/DAC2_0/sw_0/vin2
+= DAC4_0/DAC3_1/DAC2_1/vrefh DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/D
+= DAC4_0/DAC3_1/DAC2_1/vrefh DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/S
+R DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 3845
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/DAC2_0/m1_1750_442#
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/D
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/S
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/DAC2_0/sw_0/vout
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/DAC2_0/sw_0/XM5/S
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/S
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/DAC2_0/sw_0/XM7/D
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin2 DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/D
+R DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/G 1885
+= DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_0/XM3/S
+= DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_0/XM4/S
+= DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_0/XM7/G
+= DAC4_0/DAC3_1/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_0/m1_1562_n295#
+R DAC4_0/DAC3_1/DAC2_0/sw_0/vin1 615
+= DAC4_0/DAC3_1/DAC2_0/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_0
+= DAC4_0/DAC3_1/DAC2_0/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_1
+= DAC4_0/DAC3_1/DAC2_0/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/li_n388_508#
+= DAC4_0/DAC3_1/DAC2_0/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sw_0/XM5/D
+= DAC4_0/DAC3_1/DAC2_0/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sw_0/XM7/S
+R DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G 3203
+= DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_0/XM1/S
+= DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_0/XM2/S
+= DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_0/XM3/G
+= DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_0/XM4/G
+= DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_0/XM5/G
+= DAC4_0/DAC3_1/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_0/m1_1247_n301#
+R DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740# 13
+R DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830# 13
+R DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80# 13
+R DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990# 13
+R DAC4_0/DAC3_1/sw_0/vin1 3843
+= DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/m1_2917_788#
+= DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/sw_0/XM5/D
+= DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/sw_0/XM7/S
+= DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/vout
+= DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/vout
+= DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/XM5/S
+= DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/S
+= DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/XM7/D
+= DAC4_0/DAC3_1/sw_0/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/D
+R DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/G 1885
+= DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_2/XM3/S
+= DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_2/XM4/S
+= DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_2/XM7/G
+= DAC4_0/DAC3_1/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_2/m1_1562_n295#
+R DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G 3203
+= DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_2/XM1/S
+= DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_2/XM2/S
+= DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_2/XM3/G
+= DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_2/XM4/G
+= DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_2/XM5/G
+= DAC4_0/DAC3_1/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_2/m1_1247_n301#
+R DAC4_0/DAC3_1/DAC2_0/sw_1/vin2 694
+= DAC4_0/DAC3_1/DAC2_0/sw_1/vin2 DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_1
+= DAC4_0/DAC3_1/DAC2_0/sw_1/vin2 DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_2
+= DAC4_0/DAC3_1/DAC2_0/sw_1/vin2 DAC4_0/DAC3_1/DAC2_0/li_n396_1418#
+= DAC4_0/DAC3_1/DAC2_0/sw_1/vin2 DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/D
+= DAC4_0/DAC3_1/DAC2_0/sw_1/vin2 DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/S
+R DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 3842
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/DAC2_0/m1_1763_1855#
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/XM5/D
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/DAC2_0/sw_2/XM7/S
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/DAC2_0/sw_1/vout
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/DAC2_0/sw_1/XM5/S
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/S
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/DAC2_0/sw_1/XM7/D
+= DAC4_0/DAC3_1/DAC2_0/sw_2/vin1 DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/D
+R DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/G 1885
+= DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_1/XM3/S
+= DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_1/XM4/S
+= DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_1/XM7/G
+= DAC4_0/DAC3_1/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_1/DAC2_0/sw_1/m1_1562_n295#
+R DAC4_0/DAC3_1/DAC2_0/sw_1/vin1 605
+= DAC4_0/DAC3_1/DAC2_0/sw_1/vin1 DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_2
+= DAC4_0/DAC3_1/DAC2_0/sw_1/vin1 DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_3
+= DAC4_0/DAC3_1/DAC2_0/sw_1/vin1 DAC4_0/DAC3_1/DAC2_0/li_n386_2303#
+= DAC4_0/DAC3_1/DAC2_0/sw_1/vin1 DAC4_0/DAC3_1/DAC2_0/sw_1/XM5/D
+= DAC4_0/DAC3_1/DAC2_0/sw_1/vin1 DAC4_0/DAC3_1/DAC2_0/sw_1/XM7/S
+R DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G 3203
+= DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_1/XM1/S
+= DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_1/XM2/S
+= DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_1/XM3/G
+= DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_1/XM4/G
+= DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_1/XM5/G
+= DAC4_0/DAC3_1/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_1/DAC2_0/sw_1/m1_1247_n301#
+C DAC4_0/sw_0/vin10 3.2
+R DAC4_0/sw_0/vin1 3844
+= DAC4_0/sw_0/vin1 DAC4_0/m1_2623_51#
+= DAC4_0/sw_0/vin1 DAC4_0/sw_0/XM5/D
+= DAC4_0/sw_0/vin1 DAC4_0/sw_0/XM7/S
+= DAC4_0/sw_0/vin1 DAC4_0/DAC3_0/vout
+= DAC4_0/sw_0/vin1 DAC4_0/DAC3_0/sw_0/vout
+= DAC4_0/sw_0/vin1 DAC4_0/DAC3_0/sw_0/XM5/S
+= DAC4_0/sw_0/vin1 DAC4_0/DAC3_0/sw_0/XM6/S
+= DAC4_0/sw_0/vin1 DAC4_0/DAC3_0/sw_0/XM7/D
+= DAC4_0/sw_0/vin1 DAC4_0/DAC3_0/sw_0/XM8/D
+R DAC4_0/DAC3_0/sw_0/XM8/G 1885
+= DAC4_0/DAC3_0/sw_0/XM8/G DAC4_0/DAC3_0/sw_0/XM3/S
+= DAC4_0/DAC3_0/sw_0/XM8/G DAC4_0/DAC3_0/sw_0/XM4/S
+= DAC4_0/DAC3_0/sw_0/XM8/G DAC4_0/DAC3_0/sw_0/XM7/G
+= DAC4_0/DAC3_0/sw_0/XM8/G DAC4_0/DAC3_0/sw_0/m1_1562_n295#
+R DAC4_0/DAC3_0/sw_0/XM6/G 3203
+= DAC4_0/DAC3_0/sw_0/XM6/G DAC4_0/DAC3_0/sw_0/XM1/S
+= DAC4_0/DAC3_0/sw_0/XM6/G DAC4_0/DAC3_0/sw_0/XM2/S
+= DAC4_0/DAC3_0/sw_0/XM6/G DAC4_0/DAC3_0/sw_0/XM3/G
+= DAC4_0/DAC3_0/sw_0/XM6/G DAC4_0/DAC3_0/sw_0/XM4/G
+= DAC4_0/DAC3_0/sw_0/XM6/G DAC4_0/DAC3_0/sw_0/XM5/G
+= DAC4_0/DAC3_0/sw_0/XM6/G DAC4_0/DAC3_0/sw_0/m1_1247_n301#
+R DAC4_0/DAC3_1/vrefh 621
+= DAC4_0/DAC3_1/vrefh DAC4_0/DAC3_1/DAC2_0/vrefh
+= DAC4_0/DAC3_1/vrefh DAC4_0/DAC3_1/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_3
+= DAC4_0/DAC3_1/vrefh DAC4_0/DAC3_0/vrefl
+= DAC4_0/DAC3_1/vrefh DAC4_0/DAC3_0/DAC2_1/vrefl
+= DAC4_0/DAC3_1/vrefh DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_0
+= DAC4_0/DAC3_1/vrefh DAC4_0/DAC3_0/DAC2_1/sw_0/vin2
+= DAC4_0/DAC3_1/vrefh DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/D
+= DAC4_0/DAC3_1/vrefh DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/S
+R DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 3845
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_0/DAC2_1/m1_1750_442#
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/D
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/S
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_0/DAC2_1/sw_0/vout
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_0/DAC2_1/sw_0/XM5/S
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/S
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_0/DAC2_1/sw_0/XM7/D
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin2 DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/D
+R DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/G 1885
+= DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_0/XM3/S
+= DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_0/XM4/S
+= DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_0/XM7/G
+= DAC4_0/DAC3_0/DAC2_1/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_0/m1_1562_n295#
+R DAC4_0/DAC3_0/DAC2_1/sw_0/vin1 615
+= DAC4_0/DAC3_0/DAC2_1/sw_0/vin1 DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_0
+= DAC4_0/DAC3_0/DAC2_1/sw_0/vin1 DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_1
+= DAC4_0/DAC3_0/DAC2_1/sw_0/vin1 DAC4_0/DAC3_0/DAC2_1/li_n388_508#
+= DAC4_0/DAC3_0/DAC2_1/sw_0/vin1 DAC4_0/DAC3_0/DAC2_1/sw_0/XM5/D
+= DAC4_0/DAC3_0/DAC2_1/sw_0/vin1 DAC4_0/DAC3_0/DAC2_1/sw_0/XM7/S
+R DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G 3203
+= DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_0/XM1/S
+= DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_0/XM2/S
+= DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_0/XM3/G
+= DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_0/XM4/G
+= DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_0/XM5/G
+= DAC4_0/DAC3_0/DAC2_1/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_0/m1_1247_n301#
+R DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740# 13
+R DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830# 13
+R DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80# 13
+R DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990# 13
+C DAC4_0/DAC3_0/sw_0/vin20 3.5
+R DAC4_0/DAC3_0/sw_0/vin2 3842
+= DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/sw_0/XM6/D
+= DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/sw_0/XM8/S
+= DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/DAC2_1/vout
+= DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/m1_2893_n1058#
+= DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/DAC2_1/sw_2/vout
+= DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/DAC2_1/sw_2/XM5/S
+= DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/S
+= DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/DAC2_1/sw_2/XM7/D
+= DAC4_0/DAC3_0/sw_0/vin2 DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/D
+R DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/G 1885
+= DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_2/XM3/S
+= DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_2/XM4/S
+= DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_2/XM7/G
+= DAC4_0/DAC3_0/DAC2_1/sw_2/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_2/m1_1562_n295#
+R DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G 3203
+= DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_2/XM1/S
+= DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_2/XM2/S
+= DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_2/XM3/G
+= DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_2/XM4/G
+= DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_2/XM5/G
+= DAC4_0/DAC3_0/DAC2_1/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_2/m1_1247_n301#
+R DAC4_0/DAC3_0/DAC2_1/sw_1/vin2 694
+= DAC4_0/DAC3_0/DAC2_1/sw_1/vin2 DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_1
+= DAC4_0/DAC3_0/DAC2_1/sw_1/vin2 DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_2
+= DAC4_0/DAC3_0/DAC2_1/sw_1/vin2 DAC4_0/DAC3_0/DAC2_1/li_n396_1418#
+= DAC4_0/DAC3_0/DAC2_1/sw_1/vin2 DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/D
+= DAC4_0/DAC3_0/DAC2_1/sw_1/vin2 DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/S
+R DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 3842
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/DAC2_1/m1_1763_1855#
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/DAC2_1/sw_2/XM5/D
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/DAC2_1/sw_2/XM7/S
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/DAC2_1/sw_1/vout
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/DAC2_1/sw_1/XM5/S
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/S
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/DAC2_1/sw_1/XM7/D
+= DAC4_0/DAC3_0/DAC2_1/sw_2/vin1 DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/D
+R DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/G 1885
+= DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_1/XM3/S
+= DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_1/XM4/S
+= DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_1/XM7/G
+= DAC4_0/DAC3_0/DAC2_1/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_1/sw_1/m1_1562_n295#
+R DAC4_0/DAC3_0/DAC2_1/sw_1/vin1 605
+= DAC4_0/DAC3_0/DAC2_1/sw_1/vin1 DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_2
+= DAC4_0/DAC3_0/DAC2_1/sw_1/vin1 DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_3
+= DAC4_0/DAC3_0/DAC2_1/sw_1/vin1 DAC4_0/DAC3_0/DAC2_1/li_n386_2303#
+= DAC4_0/DAC3_0/DAC2_1/sw_1/vin1 DAC4_0/DAC3_0/DAC2_1/sw_1/XM5/D
+= DAC4_0/DAC3_0/DAC2_1/sw_1/vin1 DAC4_0/DAC3_0/DAC2_1/sw_1/XM7/S
+R DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G 3203
+= DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_1/XM1/S
+= DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_1/XM2/S
+= DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_1/XM3/G
+= DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_1/XM4/G
+= DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_1/XM5/G
+= DAC4_0/DAC3_0/DAC2_1/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_1/sw_1/m1_1247_n301#
+R DAC4_0/DAC3_0/DAC2_1/vrefh 617
+= DAC4_0/DAC3_0/DAC2_1/vrefh DAC4_0/DAC3_0/li_11_n63#
+= DAC4_0/DAC3_0/DAC2_1/vrefh DAC4_0/DAC3_0/DAC2_1/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_3
+= DAC4_0/DAC3_0/DAC2_1/vrefh DAC4_0/DAC3_0/DAC2_0/vrefl
+= DAC4_0/DAC3_0/DAC2_1/vrefh DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_0
+= DAC4_0/DAC3_0/DAC2_1/vrefh DAC4_0/DAC3_0/DAC2_0/sw_0/vin2
+= DAC4_0/DAC3_0/DAC2_1/vrefh DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/D
+= DAC4_0/DAC3_0/DAC2_1/vrefh DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/S
+R DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 3845
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/DAC2_0/m1_1750_442#
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/D
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/S
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/DAC2_0/sw_0/vout
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/DAC2_0/sw_0/XM5/S
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/S
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/DAC2_0/sw_0/XM7/D
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin2 DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/D
+R DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/G 1885
+= DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_0/XM3/S
+= DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_0/XM4/S
+= DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_0/XM7/G
+= DAC4_0/DAC3_0/DAC2_0/sw_0/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_0/m1_1562_n295#
+R DAC4_0/DAC3_0/DAC2_0/sw_0/vin1 615
+= DAC4_0/DAC3_0/DAC2_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_0
+= DAC4_0/DAC3_0/DAC2_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_1
+= DAC4_0/DAC3_0/DAC2_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/li_n388_508#
+= DAC4_0/DAC3_0/DAC2_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sw_0/XM5/D
+= DAC4_0/DAC3_0/DAC2_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sw_0/XM7/S
+R DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G 3203
+= DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_0/XM1/S
+= DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_0/XM2/S
+= DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_0/XM3/G
+= DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_0/XM4/G
+= DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_0/XM5/G
+= DAC4_0/DAC3_0/DAC2_0/sw_0/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_0/m1_1247_n301#
+R vrefh 13
+= vrefh DAC4_0/vrefh
+= vrefh DAC4_0/DAC3_0/vrefh
+= vrefh DAC4_0/DAC3_0/DAC2_0/vrefh
+= vrefh DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_3
+R DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n1740# 13
+R DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_n830# 13
+R DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_80# 13
+R DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/li_n100_990# 13
+R DAC4_0/DAC3_0/sw_0/vin1 3843
+= DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/m1_2917_788#
+= DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/sw_0/XM5/D
+= DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/sw_0/XM7/S
+= DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/vout
+= DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/vout
+= DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/XM5/S
+= DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/S
+= DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/XM7/D
+= DAC4_0/DAC3_0/sw_0/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/D
+R DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/G 1885
+= DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_2/XM3/S
+= DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_2/XM4/S
+= DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_2/XM7/G
+= DAC4_0/DAC3_0/DAC2_0/sw_2/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_2/m1_1562_n295#
+R DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G 3203
+= DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_2/XM1/S
+= DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_2/XM2/S
+= DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_2/XM3/G
+= DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_2/XM4/G
+= DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_2/XM5/G
+= DAC4_0/DAC3_0/DAC2_0/sw_2/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_2/m1_1247_n301#
+R DAC4_0/DAC3_0/DAC2_0/sw_1/vin2 694
+= DAC4_0/DAC3_0/DAC2_0/sw_1/vin2 DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_1
+= DAC4_0/DAC3_0/DAC2_0/sw_1/vin2 DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_2
+= DAC4_0/DAC3_0/DAC2_0/sw_1/vin2 DAC4_0/DAC3_0/DAC2_0/li_n396_1418#
+= DAC4_0/DAC3_0/DAC2_0/sw_1/vin2 DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/D
+= DAC4_0/DAC3_0/DAC2_0/sw_1/vin2 DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/S
+R DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 3842
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/DAC2_0/m1_1763_1855#
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/XM5/D
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/DAC2_0/sw_2/XM7/S
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/DAC2_0/sw_1/vout
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/DAC2_0/sw_1/XM5/S
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/S
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/DAC2_0/sw_1/XM7/D
+= DAC4_0/DAC3_0/DAC2_0/sw_2/vin1 DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/D
+R DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/G 1885
+= DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_1/XM3/S
+= DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_1/XM4/S
+= DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_1/XM7/G
+= DAC4_0/DAC3_0/DAC2_0/sw_1/XM8/G DAC4_0/DAC3_0/DAC2_0/sw_1/m1_1562_n295#
+R DAC4_0/DAC3_0/DAC2_0/sw_1/vin1 605
+= DAC4_0/DAC3_0/DAC2_0/sw_1/vin1 DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R1_2
+= DAC4_0/DAC3_0/DAC2_0/sw_1/vin1 DAC4_0/DAC3_0/DAC2_0/sky130_fd_pr__res_generic_l1_BU56D2_0/R2_3
+= DAC4_0/DAC3_0/DAC2_0/sw_1/vin1 DAC4_0/DAC3_0/DAC2_0/li_n386_2303#
+= DAC4_0/DAC3_0/DAC2_0/sw_1/vin1 DAC4_0/DAC3_0/DAC2_0/sw_1/XM5/D
+= DAC4_0/DAC3_0/DAC2_0/sw_1/vin1 DAC4_0/DAC3_0/DAC2_0/sw_1/XM7/S
+R DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G 3203
+= DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_1/XM1/S
+= DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_1/XM2/S
+= DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_1/XM3/G
+= DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_1/XM4/G
+= DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_1/XM5/G
+= DAC4_0/DAC3_0/DAC2_0/sw_1/XM6/G DAC4_0/DAC3_0/DAC2_0/sw_1/m1_1247_n301#

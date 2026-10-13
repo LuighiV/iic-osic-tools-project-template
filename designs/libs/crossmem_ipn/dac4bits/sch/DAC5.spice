@@ -1,0 +1,60 @@
+** sch_path: /foss/designs/crossmem_ipn/designs/libs/crossmem_ipn/dac5bits/sch/DAC5.sch
+.subckt DAC5 avdd b0 b1 avss b2 vrefh vout vrefl b3 b4
+*.PININFO avdd:B avss:B b0:B b1:B b2:B b3:B vout:B b4:B vrefh:B vrefl:B
+x1 avdd b0 b1 avss b2 vrefh net2 net1 b3 DAC4
+x3 avdd b4 avss net2 vout net3 sw
+x2 avdd b0 b1 avss b2 net1 net3 vrefl b3 DAC4
+.ends
+
+* expanding   symbol:  DAC4.sym # of pins=9
+** sym_path: /foss/designs/crossmem_ipn/designs/libs/crossmem_ipn/dac5bits/sch/DAC4.sym
+** sch_path: /foss/designs/crossmem_ipn/designs/libs/crossmem_ipn/dac5bits/sch/DAC4.sch
+.subckt DAC4 avdd b0 b1 avss b2 vrefh vout vrefl b3
+*.PININFO avdd:B avss:B b0:B b1:B b2:B vout:B b3:B vrefh:B vrefl:B
+x1 avdd b0 b1 avss b2 vrefh net2 net1 DAC3
+x2 avdd b0 b1 avss b2 net1 net3 vrefl DAC3
+x3 avdd b3 avss net2 vout net3 sw
+.ends
+
+
+* expanding   symbol:  sw.sym # of pins=6
+** sym_path: /foss/designs/crossmem_ipn/designs/libs/crossmem_ipn/dac5bits/sch/sw.sym
+** sch_path: /foss/designs/crossmem_ipn/designs/libs/crossmem_ipn/dac5bits/sch/sw.sch
+.subckt sw avdd b_in avss vin1 vout vin2
+*.PININFO avss:B vin1:B vout:B avdd:B vin2:B b_in:B
+XM1 net1 b_in avss avss sky130_fd_pr__nfet_01v8 L=0.15 W=0.5 nf=1
+XM2 net1 b_in avdd avdd sky130_fd_pr__pfet_01v8 L=0.15 W=0.5 nf=1
+XM3 net2 net1 avss avss sky130_fd_pr__nfet_01v8 L=0.15 W=0.5 nf=1
+XM4 net2 net1 avdd avdd sky130_fd_pr__pfet_01v8 L=0.15 W=0.5 nf=1
+XM5 vout net1 vin1 avdd sky130_fd_pr__pfet_01v8 L=0.15 W=0.5 nf=1
+XM6 vout net1 vin2 avss sky130_fd_pr__nfet_01v8 L=0.15 W=0.5 nf=1
+XM7 vin1 net2 vout avss sky130_fd_pr__nfet_01v8 L=0.15 W=0.5 nf=1
+XM8 vin2 net2 vout avdd sky130_fd_pr__pfet_01v8 L=0.15 W=0.5 nf=1
+.ends
+
+
+* expanding   symbol:  DAC3.sym # of pins=8
+** sym_path: /foss/designs/crossmem_ipn/designs/libs/crossmem_ipn/dac5bits/sch/DAC3.sym
+** sch_path: /foss/designs/crossmem_ipn/designs/libs/crossmem_ipn/dac5bits/sch/DAC3.sch
+.subckt DAC3 avdd b0 b1 avss b2 vrefh vout vrefl
+*.PININFO vrefh:B vrefl:B b0:B b1:B b2:B avdd:B avss:B vout:B
+x1 b0 avdd b1 avss vrefh net1 net3 DAC2BIT
+x2 b0 avdd b1 avss net3 net2 vrefl DAC2BIT
+x3 avdd b2 avss net1 vout net2 sw
+.ends
+
+
+* expanding   symbol:  DAC2BIT.sym # of pins=7
+** sym_path: /foss/designs/crossmem_ipn/designs/libs/crossmem_ipn/dac5bits/sch/DAC2BIT.sym
+** sch_path: /foss/designs/crossmem_ipn/designs/libs/crossmem_ipn/dac5bits/sch/DAC2BIT.sch
+.subckt DAC2BIT b0 avdd b1 avss vrefh vout vrefl
+*.PININFO vrefh:B vrefl:B b0:B b1:B avdd:B avss:B vout:B
+x1 avdd b0 avss net5 net1 net4 sw
+x2 avdd b0 avss net3 net2 vrefl sw
+x3 avdd b1 avss net1 vout net2 sw
+R5 net5 vrefh sky130_fd_pr__res_generic_l1 W=1 L=3.75
+R6 net4 net5 sky130_fd_pr__res_generic_l1 W=1 L=3.75
+R7 net3 net4 sky130_fd_pr__res_generic_l1 W=1 L=3.75
+R8 vrefl net3 sky130_fd_pr__res_generic_l1 W=1 L=3.75
+.ends
+

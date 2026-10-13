@@ -1,0 +1,42 @@
+* NGSPICE file created from DAC3.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_PHAC7Z B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_2H7JD5 B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.15
+.ends
+
+.subckt sw vin1 vout vin2 b_in avdd avss
+XXM1 avss avss XM6/G b_in sky130_fd_pr__nfet_01v8_PHAC7Z
+XXM2 avdd avdd XM6/G b_in sky130_fd_pr__pfet_01v8_2H7JD5
+XXM3 avss avss XM8/G XM6/G sky130_fd_pr__nfet_01v8_PHAC7Z
+XXM4 avdd avdd XM8/G XM6/G sky130_fd_pr__pfet_01v8_2H7JD5
+XXM5 avdd vin1 vout XM6/G sky130_fd_pr__pfet_01v8_2H7JD5
+XXM6 avss vin2 vout XM6/G sky130_fd_pr__nfet_01v8_PHAC7Z
+XXM7 avss vout vin1 XM8/G sky130_fd_pr__nfet_01v8_PHAC7Z
+XXM8 avdd vout vin2 XM8/G sky130_fd_pr__pfet_01v8_2H7JD5
+.ends
+
+.subckt sky130_fd_pr__res_generic_l1_BU56D2 R1_0 R2_0 R1_1 R2_1 R1_2 R2_2 R1_3 R2_3
+R0 R1_1 R2_1 sky130_fd_pr__res_generic_l1 w=1 l=3.75
+R1 R1_3 R2_3 sky130_fd_pr__res_generic_l1 w=1 l=3.75
+R2 R1_0 R2_0 sky130_fd_pr__res_generic_l1 w=1 l=3.75
+R3 R1_2 R2_2 sky130_fd_pr__res_generic_l1 w=1 l=3.75
+.ends
+
+.subckt DAC2 b1 vrefh vrefl vout b0 avss avdd
+Xsw_1 sw_1/vin1 sw_2/vin1 sw_1/vin2 b0 avdd avss sw
+Xsw_2 sw_2/vin1 vout sw_2/vin2 b1 avdd avss sw
+Xsky130_fd_pr__res_generic_l1_BU56D2_0 sw_0/vin1 vrefl sw_1/vin2 sw_0/vin1 sw_1/vin1
++ sw_1/vin2 vrefh sw_1/vin1 sky130_fd_pr__res_generic_l1_BU56D2
+Xsw_0 sw_0/vin1 sw_2/vin2 vrefl b0 avdd avss sw
+.ends
+
+.subckt DAC3 avdd avss b0 b1 b2 vrefh vrefl vout
+XDAC2_1 b1 DAC2_1/vrefh vrefl sw_0/vin2 b0 avss avdd DAC2
+XDAC2_0 b1 vrefh DAC2_1/vrefh sw_0/vin1 b0 avss avdd DAC2
+Xsw_0 sw_0/vin1 vout sw_0/vin2 b2 avdd avss sw
+.ends
+

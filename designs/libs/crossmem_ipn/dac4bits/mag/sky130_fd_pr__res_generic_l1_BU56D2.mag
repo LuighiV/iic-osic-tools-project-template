@@ -1,0 +1,40 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1790088086
+<< locali >>
+rect -100 1740 100 1797
+rect -100 933 100 990
+rect -100 830 100 887
+rect -100 23 100 80
+rect -100 -80 100 -23
+rect -100 -887 100 -830
+rect -100 -990 100 -933
+rect -100 -1797 100 -1740
+<< rlocali >>
+rect -100 990 100 1740
+rect -100 80 100 830
+rect -100 -830 100 -80
+rect -100 -1740 100 -990
+<< labels >>
+rlabel locali 0 -950 0 -950 0 R1_0
+port 1 nsew
+rlabel locali 0 -1780 0 -1780 0 R2_0
+port 2 nsew
+rlabel locali 0 -40 0 -40 0 R1_1
+port 3 nsew
+rlabel locali 0 -870 0 -870 0 R2_1
+port 4 nsew
+rlabel locali 0 870 0 870 0 R1_2
+port 5 nsew
+rlabel locali 0 40 0 40 0 R2_2
+port 6 nsew
+rlabel locali 0 1780 0 1780 0 R1_3
+port 7 nsew
+rlabel locali 0 950 0 950 0 R2_3
+port 8 nsew
+<< properties >>
+string gencell sky130_fd_pr__res_generic_l1
+string library sky130
+string parameters w 1.0 l 3.75 m 4 nx 1 wmin 0.17 lmin 0.17 class resistor rho 12.8 val 48.0 dummy 0 dw 0.0 term 0.0 snake 0 roverlap 0 doports 1
+<< end >>
